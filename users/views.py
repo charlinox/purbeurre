@@ -3,7 +3,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse
 
 from .forms import ConnexionForm
-from dango.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm
 
 def connexion(request):
     error = False
@@ -25,7 +25,4 @@ def connexion(request):
 
 def deconnexion(request):
     logout(request)
-    return redirect(reverse(connexion))
-
-def signup
-    
+    return redirect(reverse(connexion))    

@@ -1,0 +1,1838 @@
+total 162600
+-rwxr-xr-x 1 root root       51384 janv. 18  2018 [
+-rwxr-xr-x 1 root root          96 oct.   7 19:39 2to3-2.7
+-rwxr-xr-x 1 root root       10104 avril 23  2016 411toppm
+-rwxr-xr-x 1 root root          39 févr.  5  2018 7z
+-rwxr-xr-x 1 root root          40 févr.  5  2018 7za
+-rwxr-xr-x 1 root root          40 févr.  5  2018 7zr
+-rwxr-xr-x 1 root root       22600 déc.  12  2017 a11y-profile-manager-indicator
+-rwxr-xr-x 1 root root       22696 sept. 27  2018 aa-enabled
+-rwxr-xr-x 1 root root       22696 sept. 27  2018 aa-exec
+-rwxr-xr-x 1 root root       18504 févr. 15  2017 aconnect
+-rwxr-xr-x 1 root root       14608 avril 28  2017 acpi_listen
+-rwxr-xr-x 1 root root        7258 juil. 12 16:10 add-apt-repository
+-rwxr-xr-x 1 root root       22608 août  23 01:47 addpart
+lrwxrwxrwx 1 root root          26 déc.  13 17:43 addr2line -> x86_64-linux-gnu-addr2line
+-rwxr-xr-x 1 root root       43144 févr. 15  2017 alsabat
+-rwxr-xr-x 1 root root       76792 févr. 15  2017 alsaloop
+-rwxr-xr-x 1 root root       68024 févr. 15  2017 alsamixer
+-rwxr-xr-x 1 root root       10312 févr. 15  2017 alsatplg
+-rwxr-xr-x 1 root root       14784 févr. 15  2017 alsaucm
+-rwxr-xr-x 1 root root       22608 févr. 15  2017 amidi
+-rwxr-xr-x 1 root root       51424 févr. 15  2017 amixer
+-rwxr-xr-x 1 root root        2668 sept.  8  2016 amuFormat.sh
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 animate -> /etc/alternatives/animate
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 animate-im6 -> /etc/alternatives/animate-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 animate-im6.q16
+-rwxr-xr-x 1 root root        5680 avril 23  2016 anytopnm
+-rwxr-xr-x 1 root root       67704 févr. 15  2017 aplay
+-rwxr-xr-x 1 root root       22608 févr. 15  2017 aplaymidi
+-rwxr-xr-x 1 root root        2558 févr. 13  2018 apport-bug
+-rwxr-xr-x 1 root root       13367 nov.   5 03:49 apport-cli
+lrwxrwxrwx 1 root root          10 nov.   5 03:49 apport-collect -> apport-bug
+-rwxr-xr-x 1 root root        1849 nov.   5 03:49 apport-unpack
+-rwxr-xr-x 1 root root       10232 avril 21  2017 appres
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 apropos -> whatis
+-rwxr-xr-x 1 root root       14424 sept.  3 12:05 apt
+lrwxrwxrwx 1 root root          18 juil. 12 16:10 apt-add-repository -> add-apt-repository
+-rwxr-xr-x 1 root root       80032 sept.  3 12:05 apt-cache
+-rwxr-xr-x 1 root root       22688 sept.  3 12:05 apt-cdrom
+-rwxr-xr-x 1 root root       22616 sept.  3 12:05 apt-config
+-rwxr-xr-x 1 root root        1040 juin   7  2019 aptdcon
+-rwxr-xr-x 1 root root       22688 sept.  3 12:05 apt-extracttemplates
+-rwxr-xr-x 1 root root      239776 sept.  3 12:05 apt-ftparchive
+-rwxr-xr-x 1 root root       43168 sept.  3 12:05 apt-get
+-rwxr-xr-x 1 root root       27391 sept.  3 12:05 apt-key
+-rwxr-xr-x 1 root root       43168 sept.  3 12:05 apt-mark
+-rwxr-xr-x 1 root root       43096 sept.  3 12:05 apt-sortpkgs
+-rwxr-xr-x 1 root root         273 mai   19  2016 apturl
+-rwxr-xr-x 1 root root        1544 sept. 26  2018 apturl-gtk
+lrwxrwxrwx 1 root root          19 déc.  13 17:43 ar -> x86_64-linux-gnu-ar
+-rwxr-xr-x 1 root root       35032 janv. 18  2018 arch
+lrwxrwxrwx 1 root root           5 déc.  13 17:43 arecord -> aplay
+-rwxr-xr-x 1 root root       22616 févr. 15  2017 arecordmidi
+-rwxr-xr-x 1 root root       10232 févr. 25  2018 arm2hpdl
+-rwsr-xr-x 1 root root       22528 juin  28  2019 arping
+lrwxrwxrwx 1 root root          19 déc.  13 17:43 as -> x86_64-linux-gnu-as
+-rwxr-xr-x 1 root root       10104 avril 23  2016 asciitopgm
+-rwxr-xr-x 1 root root       18504 févr. 15  2017 aseqdump
+-rwxr-xr-x 1 root root       18560 févr. 15  2017 aseqnet
+-rwxr-xr-x 1 root root      153944 oct.  15 14:12 aspell
+-rwxr-xr-x 1 root root        2044 oct.  15 14:12 aspell-import
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 assistant -> qtchooser
+-rwxr-xr-x 1 root root       18296 avril 23  2016 atktopbm
+-rwxr-xr-x 1 root root       14328 mai   31  2016 atobm
+-rwxr-xr-x 1 root root      473304 avril 10  2018 atril
+-rwxr-xr-x 1 root root       47320 avril 10  2018 atril-previewer
+-rwxr-xr-x 1 root root       14424 avril 10  2018 atril-thumbnailer
+-rwxr-xr-x 1 root root       26712 janv. 30  2019 avahi-browse
+lrwxrwxrwx 1 root root          12 déc.  13 17:43 avahi-browse-domains -> avahi-browse
+-rwxr-xr-x 1 root root       18512 janv. 30  2019 avahi-publish
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 avahi-publish-address -> avahi-publish
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 avahi-publish-service -> avahi-publish
+-rwxr-xr-x 1 root root       14416 janv. 30  2019 avahi-resolve
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 avahi-resolve-address -> avahi-resolve
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 avahi-resolve-host-name -> avahi-resolve
+-rwxr-xr-x 1 root root       14416 janv. 30  2019 avahi-set-host-name
+lrwxrwxrwx 1 root root          21 déc.  13 17:43 awk -> /etc/alternatives/awk
+-rwxr-xr-x 1 root root       55512 janv. 18  2018 b2sum
+-rwxr-xr-x 1 root root       39096 janv. 18  2018 base32
+-rwxr-xr-x 1 root root       39096 janv. 18  2018 base64
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 basename
+-rwxr-xr-x 1 root root        7115 juin   7  2019 bashbug
+-rwxr-xr-x 1 root root       92872 mars  22  2018 bc
+-rwxr-xr-x 1 root root      196920 sept. 10 23:25 bccmd
+-rwxr-xr-x 1 root root       43128 mars  18  2018 bdftopcf
+-rwxr-xr-x 1 root root       10232 mars  18  2018 bdftruncate
+-rwxr-xr-x 1 root root       10104 avril 23  2016 bioradtopgm
+-rwxr-xr-x 1 root root      100440 mai   31  2016 bitmap
+-rwxr-xr-x 1 root root        9162 nov.  10  2017 blueman-adapters
+-rwxr-xr-x 1 root root        3663 nov.  10  2017 blueman-applet
+-rwxr-xr-x 1 root root       12021 nov.  10  2017 blueman-assistant
+-rwxr-xr-x 1 root root        2588 nov.  10  2017 blueman-browse
+-rwxr-xr-x 1 root root        9895 nov.  10  2017 blueman-manager
+-rwxr-xr-x 1 root root        2258 nov.  10  2017 blueman-report
+-rwxr-xr-x 1 root root       13150 nov.  10  2017 blueman-sendto
+-rwxr-xr-x 1 root root        5111 nov.  10  2017 blueman-services
+-rwxr-xr-x 1 root root       75848 sept. 10 23:25 bluemoon
+-rwxr-xr-x 1 root root      203272 sept. 10 23:25 bluetoothctl
+-rwxr-xr-x 1 root root       14240 avril 23  2016 bmptopnm
+lrwxrwxrwx 1 root root           8 déc.  13 17:43 bmptoppm -> bmptopnm
+-rwxr-xr-x 1 root root       10256 mai   31  2016 bmtoa
+-rwxr-xr-x 1 root root       34952 nov.  15 16:01 bootctl
+-rwxr-xr-x 1 root root      426728 août  15  2017 brasero
+-rwxr-xr-x 1 root root      219712 août  29  2018 brltty-ctb
+-rwxr-xr-x 1 root root      170432 août  29  2018 brltty-trtxt
+-rwxr-xr-x 1 root root      199296 août  29  2018 brltty-ttb
+-rwxr-xr-x 1 root root      116816 juin   5  2019 broadwayd
+lrwxrwxrwx 1 root root           8 déc.  13 17:43 browse -> xdg-open
+-rwxr-xr-x 1 root root       10104 avril 23  2016 brushtopbm
+-rwxr-xr-x 1 root root       10232 janv. 17  2018 bsd-from
+-rwxr-sr-x 1 root tty        14328 janv. 17  2018 bsd-write
+-rwxr-xr-x 1 root root       67656 sept. 10 23:25 btattach
+-rwxr-xr-x 1 root root       30792 janv. 27  2018 btcflash
+-rwxr-xr-x 1 root root      314136 sept. 10 23:25 btmgmt
+-rwxr-xr-x 1 root root      716792 sept. 10 23:25 btmon
+-rwxr-xr-x 1 root root       67672 nov.  15 16:01 busctl
+-rwxr-xr-x 1 root root       51304 oct.   2  2018 bwrap
+lrwxrwxrwx 1 root root          21 déc.  13 18:00 c++ -> /etc/alternatives/c++
+lrwxrwxrwx 1 root root          21 déc.  13 18:00 c89 -> /etc/alternatives/c89
+-rwxr-xr-x 1 root root         428 mai    7  2006 c89-gcc
+lrwxrwxrwx 1 root root          21 déc.  13 18:00 c99 -> /etc/alternatives/c99
+-rwxr-xr-x 1 root root         454 avril 11  2011 c99-gcc
+-rwxr-xr-x 1 root root     1931872 avril 25  2018 caja
+-rwxr-xr-x 1 root root       34808 avril 25  2018 caja-autorun-software
+-rwxr-xr-x 1 root root      601888 avril 25  2018 caja-connect-server
+-rwxr-xr-x 1 root root         427 avril 18  2018 caja-dropbox-autostart
+-rwxr-xr-x 1 root root      597664 avril 25  2018 caja-file-management-properties
+-rwxr-xr-x 1 root root       26696 févr. 14  2018 caja-sendto
+lrwxrwxrwx 1 root root           4 déc.  13 17:43 cal -> ncal
+-rwxr-xr-x 1 root root       31208 janv. 17  2018 calendar
+-rwxr-xr-x 1 root root       27688 août  12  2016 calibrate_ppa
+-rwxr-xr-x 1 root root       14408 déc.   3  2017 canberra-gtk-play
+-rwxr-xr-x 1 root root       14328 août  16 09:12 cancel
+lrwxrwxrwx 1 root root           3 déc.  13 17:43 captoinfo -> tic
+-rwxr-xr-x 1 root root        3327 avril 16  2018 catchsegv
+-rwxr-xr-x 1 root root       39384 août   4  2018 catman
+-rwxr-xr-x 1 root root         853 juil. 15  2016 cautious-launcher
+lrwxrwxrwx 1 root root          20 déc.  13 18:00 cc -> /etc/alternatives/cc
+-rwxr-xr-x 1 root root       22592 juil. 23  2017 cd-create-profile
+-rwxr-xr-x 1 root root       22592 juil. 23  2017 cd-fix-profile
+-rwxr-xr-x 1 root root       10304 juil. 23  2017 cd-iccdump
+-rwxr-xr-x 1 root root       18496 juil. 23  2017 cd-it8
+-rwxr-xr-x 1 root root      665832 janv. 14  2018 cdrdao
+lrwxrwxrwx 1 root root           5 déc.  13 17:43 cdrecord -> wodim
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 c++filt -> x86_64-linux-gnu-c++filt
+lrwxrwxrwx 1 root root          10 déc.  13 17:43 chacl -> /bin/chacl
+-rwxr-sr-x 1 root shadow     71816 mars  22  2019 chage
+lrwxrwxrwx 1 root root          11 déc.  13 17:43 chardet3 -> chardetect3
+-rwxr-xr-x 1 root root         389 juin  18  2017 chardetect3
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 charmap -> gucharmap
+-rwxr-xr-x 1 root root       14336 sept. 26 20:01 chattr
+-rwxr-xr-x 1 root root       63672 janv. 18  2018 chcon
+-rwxr-xr-x 1 root root       83821 déc.  14  2016 checkinstall
+-rwxr-xr-x 1 root root        2771 juin  28  2019 check-language-support
+-rwxr-xr-x 1 root root      256208 mars  21  2018 cheese
+-rwsr-xr-x 1 root root       76496 mars  22  2019 chfn
+-rwxr-xr-x 1 root root       30800 août  23 01:47 chrt
+-rwsr-xr-x 1 root root       44528 mars  22  2019 chsh
+-rwxr-xr-x 1 root root       86264 nov.  29 14:57 cifsdd
+-rwxr-xr-x 1 root root      144984 sept. 10 23:25 ciptool
+-rwxr-xr-x 1 root root      149838 avril 23  2019 ckbcomp
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 cksum
+-rwxr-xr-x 1 root root       10240 mai   23  2018 clear
+-rwxr-xr-x 1 root root       10312 juin   7  2019 clear_console
+-rwxr-xr-x 1 root root       47200 août   4  2017 cmp
+-rwxr-xr-x 1 root root       10104 avril 23  2016 cmuwmtopbm
+lrwxrwxrwx 1 root root          24 déc.  14 16:54 code -> /usr/share/code/bin/code
+-rwxr-xr-x 1 root root       14328 janv. 22  2018 codepage
+-rwxr-xr-x 1 root root       10232 janv. 17  2018 col
+-rwxr-xr-x 1 root root       10240 janv. 17  2018 colcrt
+-rwxr-xr-x 1 root root       51264 juil. 23  2017 colormgr
+-rwxr-xr-x 1 root root       10232 janv. 17  2018 colrm
+-rwxr-xr-x 1 root root       14344 janv. 17  2018 column
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 combinediff -> interdiff
+-rwxr-xr-x 1 root root       39128 janv. 18  2018 comm
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 compare -> /etc/alternatives/compare
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 compare-im6 -> /etc/alternatives/compare-im6
+-rwxr-xr-x 1 root root       10232 nov.  11 19:01 compare-im6.q16
+-rwxr-xr-x 1 root root       14432 mars   2  2018 compiz
+-rwxr-xr-x 1 root root        3040 mars   2  2018 compiz-decorator
+lrwxrwxrwx 1 root root          11 déc.  13 17:43 compose -> run-mailcap
+lrwxrwxrwx 1 root root          27 déc.  13 17:43 composite -> /etc/alternatives/composite
+lrwxrwxrwx 1 root root          31 déc.  13 17:43 composite-im6 -> /etc/alternatives/composite-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 composite-im6.q16
+-rwxr-xr-x 1 root root      211016 avril 30  2016 compton
+-rwxr-xr-x 1 root root        5260 avril 30  2016 compton-trans
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 conjure -> /etc/alternatives/conjure
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 conjure-im6 -> /etc/alternatives/conjure-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 conjure-im6.q16
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 convert -> /etc/alternatives/convert
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 convert-im6 -> /etc/alternatives/convert-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 convert-im6.q16
+-rwxr-xr-x 1 root root       12835 nov.  19  2018 corelist
+-rwxr-xr-x 1 root root        8156 nov.  19  2018 cpan
+-rwxr-xr-x 1 root root        8177 nov.  19  2018 cpan5.26-x86_64-linux-gnu
+lrwxrwxrwx 1 root root           5 déc.  13 17:43 cpp -> cpp-7
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 cpp-7 -> x86_64-linux-gnu-cpp-7
+-rwxr-xr-x 1 root root       10280 avril  3  2018 cpufreq-aperf
+-rwxr-xr-x 1 root root       18792 avril  3  2018 cpufreq-info
+-rwxr-xr-x 1 root root       14520 avril  3  2018 cpufreq-set
+-rwxr-xr-x 1 root root        1062 juil.  3  2018 crc32
+-rwxr-xr-x 1 root root        6332 nov.  12 17:58 c_rehash
+-rwxr-sr-x 1 root crontab    39352 nov.  16  2017 crontab
+-rwxr-xr-x 1 root root       51416 janv. 18  2018 csplit
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 ctstat -> lnstat
+-rwxr-xr-x 1 root root       22520 févr. 10  2018 cups-calibrate
+-rwxr-xr-x 1 root root       14328 août  16 09:12 cupstestdsc
+-rwxr-xr-x 1 root root       59464 août  16 09:12 cupstestppd
+-rwxr-xr-x 1 root root      223304 sept.  6 07:27 curl
+-rwxr-xr-x 1 root root       43224 janv. 18  2018 cut
+-rwxr-xr-x 1 root root          45 sept. 11 13:39 cvlc
+-rwxr-xr-x 1 root root       14328 mai    2  2019 cvt
+-rwxr-xr-x 1 root root       10224 juin  10  2019 dbus-cleanup-sockets
+-rwxr-xr-x 1 root root      236584 juin  10  2019 dbus-daemon
+-rwxr-xr-x 1 root root       26616 juin  10  2019 dbus-launch
+-rwxr-xr-x 1 root root       22520 juin  10  2019 dbus-monitor
+-rwxr-xr-x 1 root root       10224 juin  10  2019 dbus-run-session
+-rwxr-xr-x 1 root root       26608 juin  10  2019 dbus-send
+-rwxr-xr-x 1 root root       14320 juin  10  2019 dbus-update-activation-environment
+-rwxr-xr-x 1 root root       10224 juin  10  2019 dbus-uuidgen
+-rwxr-xr-x 1 root root       18648 nov.  29 14:57 dbwrap_tool
+-rwxr-xr-x 1 root root       47200 mars  22  2018 dc
+-rwxr-xr-x 1 root root       47096 mars  29  2018 dconf
+-rwxr-xr-x 1 root root       14328 févr. 25  2018 ddstdecode
+-rwxr-xr-x 1 root root       10312 janv. 22  2018 deallocvt
+-rwxr-xr-x 1 root root        2859 mai    6  2019 debconf
+-rwxr-xr-x 1 root root       11541 mai    6  2019 debconf-apt-progress
+-rwxr-xr-x 1 root root         608 mai    6  2019 debconf-communicate
+-rwxr-xr-x 1 root root        1719 mai    6  2019 debconf-copydb
+-rwxr-xr-x 1 root root         647 mai    6  2019 debconf-escape
+-rwxr-xr-x 1 root root        2935 mai    6  2019 debconf-set-selections
+-rwxr-xr-x 1 root root        1827 mai    6  2019 debconf-show
+-rwxr-xr-x 1 root root       20142 oct.  25  2017 deb-systemd-helper
+-rwxr-xr-x 1 root root        4434 oct.  25  2017 deb-systemd-invoke
+-rwxr-xr-x 1 root root        1351 oct.  23  2016 dehtmldiff
+-rwxr-xr-x 1 root root      346328 janv. 12  2019 deja-dup
+-rwxr-xr-x 1 root root       22608 août  23 01:47 delpart
+-rwxr-xr-x 1 root root       41840 nov.  18 16:01 delv
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 designer -> qtchooser
+lrwxrwxrwx 1 root root          20 déc.  13 17:43 desktop-file-edit -> desktop-file-install
+-rwxr-xr-x 1 root root       90144 nov.   6  2018 desktop-file-install
+-rwxr-xr-x 1 root root       78088 nov.   6  2018 desktop-file-validate
+-rwxr-xr-x 1 root root      175224 avril 21  2017 devdump
+-rwxr-xr-x 1 root root      190456 oct.  23  2018 dfu-tool
+-rwxr-xr-x 1 root root        2550 avril  2  2018 dh_bash-completion
+-rwxr-xr-x 1 root root        1396 janv. 14  2017 dh_perl_openssl
+lrwxrwxrwx 1 root root          26 mars  26  2018 dh_pypy -> ../share/dh-python/dh_pypy
+-rwxr-xr-x 1 root root        1056 avril 16  2018 dh_python2
+lrwxrwxrwx 1 root root          29 mars  26  2018 dh_python3 -> ../share/dh-python/dh_python3
+-rwxr-xr-x 1 root root      145752 août   4  2017 diff
+-rwxr-xr-x 1 root root       63704 août   4  2017 diff3
+-rwxr-xr-x 1 root root       43120 avril 21  2017 diffstat
+-rwxr-xr-x 1 root root      150024 nov.  18 16:01 dig
+-rwxr-xr-x 1 root root       47296 janv. 18  2018 dircolors
+-rwxr-xr-x 1 root root      546360 janv. 10  2019 dirmngr
+-rwxr-xr-x 1 root root      109320 janv. 10  2019 dirmngr-client
+-rwxr-xr-x 1 root root       30904 janv. 18  2018 dirname
+-rwxr-xr-x 1 root root       17143 nov.  26  2006 dirsplit
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 display -> /etc/alternatives/display
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 display-im6 -> /etc/alternatives/display-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 display-im6.q16
+-rwxr-xr-x 1 root root       18432 mars  22  2018 dm-tool
+-rwxr-xr-x 1 root root        9313 nov.   7 12:22 do-release-upgrade
+-rwxr-xr-x 1 root root      297472 sept.  5 23:05 dpkg
+-rwxr-xr-x 1 root root       12852 sept.  5 23:05 dpkg-architecture
+-rwxr-xr-x 1 root root        7565 sept.  5 23:05 dpkg-buildflags
+-rwxr-xr-x 1 root root       29796 sept.  5 23:05 dpkg-buildpackage
+-rwxr-xr-x 1 root root        7503 sept.  5 23:05 dpkg-checkbuilddeps
+-rwxr-xr-x 1 root root      153952 sept.  5 23:05 dpkg-deb
+-rwxr-xr-x 1 root root        2782 sept.  5 23:05 dpkg-distaddfile
+-rwxr-xr-x 1 root root      141728 sept.  5 23:05 dpkg-divert
+-rwxr-xr-x 1 root root       16775 sept.  5 23:05 dpkg-genbuildinfo
+-rwxr-xr-x 1 root root       17622 sept.  5 23:05 dpkg-genchanges
+-rwxr-xr-x 1 root root       14059 sept.  5 23:05 dpkg-gencontrol
+-rwxr-xr-x 1 root root       10629 sept.  5 23:05 dpkg-gensymbols
+-rwxr-xr-x 1 root root       19031 sept.  5 23:05 dpkg-maintscript-helper
+-rwxr-xr-x 1 root root        8590 sept.  5 23:05 dpkg-mergechangelogs
+-rwxr-xr-x 1 root root        6789 sept.  5 23:05 dpkg-name
+-rwxr-xr-x 1 root root        4435 sept.  5 23:05 dpkg-parsechangelog
+-rwxr-xr-x 1 root root      149912 sept.  5 23:05 dpkg-query
+-rwxr-xr-x 1 root root        8425 sept.  5 23:05 dpkg-scanpackages
+-rwxr-xr-x 1 root root        9167 sept.  5 23:05 dpkg-scansources
+-rwxr-xr-x 1 root root       31360 sept.  5 23:05 dpkg-shlibdeps
+-rwxr-xr-x 1 root root       23300 sept.  5 23:05 dpkg-source
+-rwxr-xr-x 1 root root      121176 sept.  5 23:05 dpkg-split
+-rwxr-xr-x 1 root root       71936 sept.  5 23:05 dpkg-statoverride
+-rwxr-xr-x 1 root root       67848 sept.  5 23:05 dpkg-trigger
+-rwxr-xr-x 1 root root        3262 sept.  5 23:05 dpkg-vendor
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 driverless -> ../lib/cups/driver/driverless
+-rwxr-xr-x 1 root root      100568 janv. 18  2018 du
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 dumpkeys -> /bin/dumpkeys
+-rwxr-xr-x 1 root root       62749 janv. 29  2019 duplicity
+-rwxr-xr-x 1 root root      187872 janv. 19  2017 dvdauthor
+-rwxr-xr-x 1 root root         860 janv. 19  2017 dvddirdel
+-rwxr-xr-x 1 root root       30792 janv. 27  2018 dvd-ram-control
+-rwxr-xr-x 1 root root       55368 janv. 27  2018 dvd+rw-booktype
+-rwxr-xr-x 1 root root       43096 janv. 27  2018 dvd+rw-format
+-rwxr-xr-x 1 root root       51280 janv. 27  2018 dvd+rw-mediainfo
+-rwxr-xr-x 1 root root       84048 janv. 19  2017 dvdunauthor
+-rwxr-xr-x 1 root root        1023 nov.   6 16:46 dvipdf
+lrwxrwxrwx 1 root root          20 déc.  13 17:43 dwp -> x86_64-linux-gnu-dwp
+lrwxrwxrwx 1 root root          11 déc.  13 17:43 edit -> run-mailcap
+-rwxr-xr-x 1 root root        2060 oct.  23  2016 editdiff
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 editor -> /etc/alternatives/editor
+-rwxr-xr-x 1 root root       70040 avril 21  2017 editres
+-rwxr-xr-x 1 root root       31424 mars  28  2017 eject
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 elfedit -> x86_64-linux-gnu-elfedit
+-rwxr-xr-x 1 root root       42153 nov.  19  2018 enc2xs
+-rwxr-xr-x 1 root root        3066 nov.  19  2018 encguess
+-rwxr-xr-x 1 root root       18504 sept. 26  2017 enchant
+-rwxr-xr-x 1 root root       10232 sept. 26  2017 enchant-lsmod
+-rwxr-xr-x 1 root root      463032 févr. 13  2018 engrampa
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 env
+-rwxr-xr-x 1 root root       34896 févr. 21  2019 envsubst
+-rwxr-xr-x 1 root root      493864 avril 25  2018 eom
+-rwxr-xr-x 1 root root         639 nov.   6 16:46 eps2eps
+-rwxr-xr-x 1 root root      197824 févr. 10  2018 eqn
+-rwxr-xr-x 1 root root       10248 févr. 10  2018 esc-m
+-rwxr-xr-x 1 root root       22528 août  29  2018 eutp
+lrwxrwxrwx 1 root root          20 déc.  13 17:43 ex -> /etc/alternatives/ex
+-rwxr-xr-x 1 root root       39128 janv. 18  2018 expand
+-rwxr-sr-x 1 root shadow     22808 mars  22  2019 expiry
+-rwxr-xr-x 1 root root       47288 janv. 18  2018 expr
+-rwxr-xr-x 1 root root       14200 avril 23  2016 eyuvtoppm
+-rwxr-xr-x 1 root root       75992 janv. 18  2018 factor
+-rwxr-xr-x 1 root root       18728 mars  22  2019 faillog
+-rwxr-xr-x 1 root root       26736 janv.  8  2018 faked-sysv
+-rwxr-xr-x 1 root root       30824 janv.  8  2018 faked-tcp
+lrwxrwxrwx 1 root root          26 déc.  13 18:00 fakeroot -> /etc/alternatives/fakeroot
+-rwxr-xr-x 1 root root        3851 janv.  8  2018 fakeroot-sysv
+-rwxr-xr-x 1 root root        3846 janv.  8  2018 fakeroot-tcp
+-rwxr-xr-x 1 root root       26704 août  23 01:47 fallocate
+-rwxr-xr-x 1 root root       14408 avril  5  2018 fc-cache
+-rwxr-xr-x 1 root root       14408 avril  5  2018 fc-cat
+-rwxr-xr-x 1 root root       10312 avril  5  2018 fc-list
+-rwxr-xr-x 1 root root       10312 avril  5  2018 fc-match
+-rwxr-xr-x 1 root root       10312 avril  5  2018 fc-pattern
+-rwxr-xr-x 1 root root       10312 avril  5  2018 fc-query
+-rwxr-xr-x 1 root root       10312 avril  5  2018 fc-scan
+-rwxr-xr-x 1 root root       10312 avril  5  2018 fc-validate
+-rwxr-xr-x 1 root root       22696 avril 30  2016 ffmpegthumbnailer
+-rwxr-xr-x 1 root root      117192 avril 23  2016 fiascotopnm
+-rwxr-xr-x 1 root root       22792 oct.  29 17:50 file
+-rwxr-xr-x 1 root root       18504 févr. 21  2018 file2brl
+-rwxr-xr-x 1 root root       48280 oct.  23  2016 filterdiff
+-rwxr-xr-x 1 root root      238080 nov.   5  2017 find
+-rwxr-xr-x 1 root root        4608 nov.  29 14:57 findsmb
+lrwxrwxrwx 1 root root          25 déc.   5 19:28 firefox -> ../lib/firefox/firefox.sh
+-rwxr-xr-x 1 root root       14200 avril 23  2016 fitstopnm
+-rwxr-xr-x 1 root root        1870 oct.  23  2016 fixcvsdiff
+-rwxr-xr-x 1 root root        8369 avril 15  2018 fix-qdf
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 flipdiff -> interdiff
+-rwxr-xr-x 1 root root       30880 août  23 01:47 flock
+-rwxr-xr-x 1 root root       43192 janv. 18  2018 fmt
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 fold
+-rwxr-xr-x 1 root root       34832 mars  18  2018 fonttosfnt
+-rwxr-xr-x 1 root root       31648 févr. 25  2018 foo2ddst
+-rwxr-xr-x 1 root root       17268 févr. 25  2018 foo2ddst-wrapper
+-rwxr-xr-x 1 root root       32704 févr. 25  2018 foo2hbpl2
+-rwxr-xr-x 1 root root       18343 févr. 25  2018 foo2hbpl2-wrapper
+-rwxr-xr-x 1 root root       35744 févr. 25  2018 foo2hiperc
+-rwxr-xr-x 1 root root       18541 févr. 25  2018 foo2hiperc-wrapper
+-rwxr-xr-x 1 root root       36000 févr. 25  2018 foo2hp
+-rwxr-xr-x 1 root root       19204 févr. 25  2018 foo2hp2600-wrapper
+-rwxr-xr-x 1 root root       36784 févr. 25  2018 foo2lava
+-rwxr-xr-x 1 root root       20083 févr. 25  2018 foo2lava-wrapper
+-rwxr-xr-x 1 root root       40032 févr. 25  2018 foo2oak
+-rwxr-xr-x 1 root root       17871 févr. 25  2018 foo2oak-wrapper
+-rwxr-xr-x 1 root root       39872 févr. 25  2018 foo2qpdl
+-rwxr-xr-x 1 root root       19514 févr. 25  2018 foo2qpdl-wrapper
+-rwxr-xr-x 1 root root       31648 févr. 25  2018 foo2slx
+-rwxr-xr-x 1 root root       17603 févr. 25  2018 foo2slx-wrapper
+-rwxr-xr-x 1 root root       35744 févr. 25  2018 foo2xqx
+-rwxr-xr-x 1 root root       17572 févr. 25  2018 foo2xqx-wrapper
+-rwxr-xr-x 1 root root       40864 févr. 25  2018 foo2zjs
+lrwxrwxrwx 1 root root           5 déc.  13 17:43 foo2zjs-icc2ps -> psicc
+-rwxr-xr-x 1 root root        2997 févr. 25  2018 foo2zjs-pstops
+-rwxr-xr-x 1 root root       25824 févr. 25  2018 foo2zjs-wrapper
+lrwxrwxrwx 1 root root          31 déc.  13 17:43 foomatic-rip -> ../lib/cups/filter/foomatic-rip
+-rwxr-xr-x 1 root root       18512 août   9 17:37 free
+-rwxr-xr-x 1 root root        4726 avril 13  2018 freetype-config
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 from -> /etc/alternatives/from
+-rwxr-xr-x 1 root root       10104 avril 23  2016 fstopgm
+lrwxrwxrwx 1 root root          21 déc.  13 17:43 ftp -> /etc/alternatives/ftp
+-rwxr-xr-x 1 root root       22520 avril 28  2017 funzip
+-rwxr-xr-x 1 root root       18424 févr.  5  2019 fwupdate
+-rwxr-xr-x 1 root root      125224 oct.  23  2018 fwupdmgr
+lrwxrwxrwx 1 root root           5 mai   20  2019 g++ -> g++-7
+-rwxr-xr-x 1 root root       13288 avril 23  2016 g3topbm
+lrwxrwxrwx 1 root root          22 mai    8  2019 g++-7 -> x86_64-linux-gnu-g++-7
+-rwxr-xr-x 1 root root       10232 août   8 20:27 gamma4scanimage
+-rwxr-xr-x 1 root root       18504 juil.  3  2019 gapplication
+-rwxr-xr-x 1 root root      277248 sept. 10 23:25 gatttool
+-rwxr-xr-x 1 root root      658072 févr. 11  2018 gawk
+lrwxrwxrwx 1 root root           5 mai   20  2019 gcc -> gcc-7
+lrwxrwxrwx 1 root root          22 mai    8  2019 gcc-7 -> x86_64-linux-gnu-gcc-7
+lrwxrwxrwx 1 root root           8 mai   20  2019 gcc-ar -> gcc-ar-7
+lrwxrwxrwx 1 root root          25 mai    8  2019 gcc-ar-7 -> x86_64-linux-gnu-gcc-ar-7
+lrwxrwxrwx 1 root root           8 mai   20  2019 gcc-nm -> gcc-nm-7
+lrwxrwxrwx 1 root root          25 mai    8  2019 gcc-nm-7 -> x86_64-linux-gnu-gcc-nm-7
+lrwxrwxrwx 1 root root          12 mai   20  2019 gcc-ranlib -> gcc-ranlib-7
+lrwxrwxrwx 1 root root          29 mai    8  2019 gcc-ranlib-7 -> x86_64-linux-gnu-gcc-ranlib-7
+-rwxr-xr-x 1 root root        3405 oct.  30 17:20 gcore
+lrwxrwxrwx 1 root root           6 mai   20  2019 gcov -> gcov-7
+lrwxrwxrwx 1 root root          23 mai    8  2019 gcov-7 -> x86_64-linux-gnu-gcov-7
+lrwxrwxrwx 1 root root          11 mai   20  2019 gcov-dump -> gcov-dump-7
+lrwxrwxrwx 1 root root          28 mai    8  2019 gcov-dump-7 -> x86_64-linux-gnu-gcov-dump-7
+lrwxrwxrwx 1 root root          11 mai   20  2019 gcov-tool -> gcov-tool-7
+lrwxrwxrwx 1 root root          28 mai    8  2019 gcov-tool-7 -> x86_64-linux-gnu-gcov-tool-7
+-rwxr-xr-x 1 root root       10312 mars  12  2018 gcr-viewer
+-rwxr-xr-x 1 root root     7614960 oct.  30 17:20 gdb
+-rwxr-xr-x 1 root root        3180 oct.  30 17:20 gdb-add-index
+-rwxr-xr-x 1 root root      661016 oct.  30 17:20 gdbserver
+-rwxr-xr-x 1 root root         126 oct.  30 17:20 gdbtui
+-rwxr-xr-x 1 root root       43088 juil.  3  2019 gdbus
+lrwxrwxrwx 1 root root          20 déc.  13 17:43 gdebi -> ../share/gdebi/gdebi
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 gdebi-gtk -> ../share/gdebi/gdebi-gtk
+-rwxr-xr-x 1 root root        9228 avril 10  2018 gdialog
+-rwxr-xr-x 1 root root       14416 mars  16  2018 gdk-pixbuf-thumbnailer
+lrwxrwxrwx 1 root root           8 déc.  13 17:43 gemtopbm -> gemtopnm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 gemtopnm
+-rwxr-xr-x 1 root root       22752 avril 16  2018 gencat
+-rwxr-xr-x 1 root root      644856 avril 21  2017 genisoimage
+lrwxrwxrwx 1 root root           3 déc.  13 17:43 geqn -> eqn
+lrwxrwxrwx 1 root root          11 déc.  13 17:43 GET -> lwp-request
+-rwxr-xr-x 1 root root       30856 avril 16  2018 getconf
+-rwxr-xr-x 1 root root        6210 avril 21  2017 geteltorito
+-rwxr-xr-x 1 root root       31224 avril 16  2018 getent
+lrwxrwxrwx 1 root root          12 déc.  13 17:43 getfacl -> /bin/getfacl
+-rwxr-xr-x 1 root root       10312 janv. 22  2018 getkeycodes
+-rwxr-xr-x 1 root root       14408 août  23 01:47 getopt
+-rwxr-xr-x 1 root root       34896 févr. 21  2019 gettext
+-rwxr-xr-x 1 root root       43753 févr. 21  2019 gettextize
+-rwxr-xr-x 1 root root        4629 févr. 21  2019 gettext.sh
+lrwxrwxrwx 1 root root           2 nov.   6 16:46 ghostscript -> gs
+-rwxr-xr-x 1 root root       18296 avril 23  2016 giftopnm
+lrwxrwxrwx 1 root root          12 déc.  13 17:43 ginstall-info -> install-info
+-rwxr-xr-x 1 root root       79960 juil.  3  2019 gio
+lrwxrwxrwx 1 root root          49 déc.  13 17:43 gio-querymodules -> ../lib/x86_64-linux-gnu/glib-2.0/gio-querymodules
+-rwxr-xr-x 1 root root       14328 févr. 25  2018 gipddecode
+-rwxr-xr-x 1 root root     2347696 déc.   9 14:29 git
+lrwxrwxrwx 1 root root           3 déc.   9 14:29 git-receive-pack -> git
+-rwxr-xr-x 1 root root     1304912 déc.   9 14:29 git-shell
+lrwxrwxrwx 1 root root           3 déc.   9 14:29 git-upload-archive -> git
+-rwxr-xr-x 1 root root     1317120 déc.   9 14:29 git-upload-pack
+lrwxrwxrwx 1 root root          53 déc.  13 17:43 glib-compile-schemas -> ../lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
+-rwxr-xr-x 1 root root       10232 févr. 23  2018 glxdemo
+-rwxr-xr-x 1 root root       22616 févr. 23  2018 glxgears
+-rwxr-xr-x 1 root root       14328 févr. 23  2018 glxheads
+-rwxr-xr-x 1 root root       59600 févr. 23  2018 glxinfo
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 gnome-character-map -> gucharmap
+-rwxr-xr-x 1 root root       51272 juil.  5  2018 gnome-disk-image-mounter
+-rwxr-xr-x 1 root root      719648 juil.  5  2018 gnome-disks
+lrwxrwxrwx 1 root root           4 déc.  13 17:43 gnome-help -> yelp
+lrwxrwxrwx 1 root root          15 déc.  13 17:43 gnome-keyring -> gnome-keyring-3
+-rwxr-xr-x 1 root root       18648 mai    9  2018 gnome-keyring-3
+-rwxr-xr-x 1 root root     1094560 mai    9  2018 gnome-keyring-daemon
+-rwxr-xr-x 1 root root        1444 juin  28  2019 gnome-language-selector
+lrwxrwxrwx 1 root root          35 déc.  13 17:43 gnome-www-browser -> /etc/alternatives/gnome-www-browser
+lrwxrwxrwx 1 root root          21 déc.  13 17:43 gold -> x86_64-linux-gnu-gold
+lrwxrwxrwx 1 root root          31 déc.  14 15:59 google-chrome -> /etc/alternatives/google-chrome
+lrwxrwxrwx 1 root root          32 déc.   7 01:29 google-chrome-stable -> /opt/google/chrome/google-chrome
+-rwxr-xr-x 1 root root       10104 avril 23  2016 gouldtoppm
+-rwsr-xr-x 1 root root       75824 mars  22  2019 gpasswd
+-rwxr-xr-x 1 root root     1017384 janv. 10  2019 gpg
+-rwxr-xr-x 1 root root      398024 janv. 10  2019 gpg-agent
+-rwxr-xr-x 1 root root      166216 janv. 10  2019 gpgconf
+-rwxr-xr-x 1 root root      158568 janv. 10  2019 gpg-connect-agent
+-rwxr-xr-x 1 root root       26696 janv. 10  2019 gpgparsemail
+-rwxr-xr-x 1 root root      502880 janv. 10  2019 gpgsm
+-rwxr-xr-x 1 root root       80336 janv. 10  2019 gpgsplit
+-rwxr-xr-x 1 root root      437264 janv. 10  2019 gpgv
+-rwxr-xr-x 1 root root      191504 janv. 10  2019 gpg-wks-server
+-rwxr-xr-x 1 root root        3443 janv. 10  2019 gpg-zip
+lrwxrwxrwx 1 root root           3 déc.  13 17:43 gpic -> pic
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 gprof -> x86_64-linux-gnu-gprof
+-rwxr-xr-x 1 root root       47816 sept. 17 16:34 gpu-manager
+lrwxrwxrwx 1 root root          10 déc.  13 17:43 grepdiff -> filterdiff
+-rwxr-xr-x 1 root root       18424 juil.  3  2019 gresource
+-rwxr-xr-x 1 root root      107840 févr. 10  2018 groff
+-rwxr-xr-x 1 root root        2780 févr. 10  2018 grog
+-rwxr-xr-x 1 root root      169696 févr. 10  2018 grops
+-rwxr-xr-x 1 root root      124256 févr. 10  2018 grotty
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 groups
+-rwxr-xr-x 1 root root      116896 janv. 27  2018 growisofs
+-rwxr-xr-x 1 root root      245688 nov.  11 06:52 grub-editenv
+-rwxr-xr-x 1 root root      675624 nov.  11 06:52 grub-file
+-rwxr-xr-x 1 root root      808600 nov.  11 06:52 grub-fstest
+-rwxr-xr-x 1 root root      241432 nov.  11 06:52 grub-glue-efi
+-rwxr-xr-x 1 root root        1681 nov.  11 06:52 grub-kbdcomp
+-rwxr-xr-x 1 root root      221224 nov.  11 06:52 grub-menulst2cfg
+-rwxr-xr-x 1 root root      270680 nov.  11 06:52 grub-mkfont
+-rwxr-xr-x 1 root root      336728 nov.  11 06:52 grub-mkimage
+-rwxr-xr-x 1 root root      245848 nov.  11 06:52 grub-mklayout
+-rwxr-xr-x 1 root root      378280 nov.  11 06:52 grub-mknetdir
+-rwxr-xr-x 1 root root      249976 nov.  11 06:52 grub-mkpasswd-pbkdf2
+-rwxr-xr-x 1 root root      241144 nov.  11 06:52 grub-mkrelpath
+-rwxr-xr-x 1 root root      841960 nov.  11 06:52 grub-mkrescue
+-rwxr-xr-x 1 root root      460536 nov.  11 06:52 grub-mkstandalone
+-rwxr-xr-x 1 root root      622808 nov.  11 06:52 grub-mount
+lrwxrwxrwx 1 root root          34 nov.  11 06:52 grub-ntldr-img -> ../lib/grub/i386-pc/grub-ntldr-img
+-rwxr-xr-x 1 root root      692392 nov.  11 06:52 grub-render-label
+-rwxr-xr-x 1 root root      265848 nov.  11 06:52 grub-script-check
+-rwxr-xr-x 1 root root      639672 nov.  11 06:52 grub-syslinux2cfg
+-rwxr-xr-x 1 root root       10232 nov.   6 16:46 gs
+-rwxr-xr-x 1 root root         350 nov.   6 16:46 gsbj
+-rwxr-xr-x 1 root root         352 nov.   6 16:46 gsdj
+-rwxr-xr-x 1 root root         352 nov.   6 16:46 gsdj500
+-rwxr-xr-x 1 root root       26696 juil.  3  2019 gsettings
+-rwxr-xr-x 1 root root         353 nov.   6 16:46 gslj
+-rwxr-xr-x 1 root root         350 nov.   6 16:46 gslp
+-rwxr-xr-x 1 root root         277 nov.   6 16:46 gsnd
+-rwxr-xr-x 1 root root        1020 mars  16  2016 gst-install
+lrwxrwxrwx 1 root root          41 déc.  13 17:43 gstreamer-codec-install -> /etc/alternatives/gstreamer-codec-install
+lrwxrwxrwx 1 root root           3 déc.  13 17:43 gtbl -> tbl
+-rwxr-xr-x 1 root root       14328 mai    2  2019 gtf
+-rwxr-xr-x 1 root root       27056 juin   5  2019 gtk-builder-tool
+-rwxr-xr-x 1 root root       86232 avril 10  2018 gtkhash
+-rwxr-xr-x 1 root root       14488 juin   5  2019 gtk-launch
+-rwxr-xr-x 1 root root       10232 juin   5  2019 gtk-query-settings
+lrwxrwxrwx 1 root root          12 déc.  13 17:43 gtk-redshift -> redshift-gtk
+-rwxr-xr-x 1 root root       31200 juin   5  2019 gtk-update-icon-cache
+-rwxr-xr-x 1 root root      138208 mars   2  2018 gtk-window-decorator
+-rwxr-xr-x 1 root root       80088 mars  16  2018 gucharmap
+-rwxr-xr-x 1 root root          55 déc.  23  2017 gufw
+-rwxr-xr-x 1 root root         293 déc.  23  2017 gufw-pkexec
+-rwxr-xr-x 1 root root         273 juil.  5  2019 gvfs-cat
+-rwxr-xr-x 1 root root         275 juil.  5  2019 gvfs-copy
+-rwxr-xr-x 1 root root         275 juil.  5  2019 gvfs-info
+-rwxr-xr-x 1 root root         884 avril  9  2018 gvfs-less
+-rwxr-xr-x 1 root root         275 juil.  5  2019 gvfs-ls
+-rwxr-xr-x 1 root root         275 juil.  5  2019 gvfs-mime
+-rwxr-xr-x 1 root root         277 juil.  5  2019 gvfs-mkdir
+-rwxr-xr-x 1 root root         281 juil.  5  2019 gvfs-monitor-dir
+-rwxr-xr-x 1 root root         281 juil.  5  2019 gvfs-monitor-file
+-rwxr-xr-x 1 root root         277 juil.  5  2019 gvfs-mount
+-rwxr-xr-x 1 root root         275 juil.  5  2019 gvfs-move
+-rwxr-xr-x 1 root root         275 juil.  5  2019 gvfs-open
+-rwxr-xr-x 1 root root         279 juil.  5  2019 gvfs-rename
+-rwxr-xr-x 1 root root         279 juil.  5  2019 gvfs-rm
+-rwxr-xr-x 1 root root         275 juil.  5  2019 gvfs-save
+-rwxr-xr-x 1 root root         273 juil.  5  2019 gvfs-set-attribute
+-rwxr-xr-x 1 root root         277 juil.  5  2019 gvfs-trash
+-rwxr-xr-x 1 root root         275 juil.  5  2019 gvfs-tree
+-rwxr-xr-x 1 root root       29224 nov.  19  2018 h2ph
+-rwxr-xr-x 1 root root       60866 nov.  19  2018 h2xs
+-rwxr-xr-x 1 root root       26616 févr. 25  2018 hbpldecode
+-rwxr-xr-x 1 root root      137144 sept. 10 23:25 hciattach
+-rwxr-xr-x 1 root root      147000 sept. 10 23:25 hcitool
+lrwxrwxrwx 1 root root           7 déc.  13 17:43 hd -> hexdump
+-rwxr-xr-x 1 root root       43224 janv. 18  2018 head
+lrwxrwxrwx 1 root root          11 déc.  13 17:43 HEAD -> lwp-request
+-rwxr-xr-x 1 root root        2514 févr.  2  2018 helpztags
+-rwxr-xr-x 1 root root       14408 sept. 10 23:25 hex2hcd
+-rwxr-xr-x 1 root root       26728 janv. 17  2018 hexdump
+-rwxr-xr-x 1 root root       18424 févr. 25  2018 hipercdecode
+-rwxr-xr-x 1 root root       10104 avril 23  2016 hipstopgm
+-rwxr-xr-x 1 root root      129704 nov.  18 16:01 host
+-rwxr-xr-x 1 root root       30904 janv. 18  2018 hostid
+-rwxr-xr-x 1 root root       18504 nov.  15 16:01 hostnamectl
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 hp-align -> ../share/hplip/align.py
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 hp-check -> ../share/hplip/check.py
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 hp-clean -> ../share/hplip/clean.py
+lrwxrwxrwx 1 root root          26 déc.  13 17:43 hp-colorcal -> ../share/hplip/colorcal.py
+lrwxrwxrwx 1 root root          36 déc.  13 17:43 hp-config_usb_printer -> ../share/hplip/config_usb_printer.py
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 hp-doctor -> ../share/hplip/doctor.py
+lrwxrwxrwx 1 root root          26 déc.  13 17:43 hp-firmware -> ../share/hplip/firmware.py
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 hp-info -> ../share/hplip/info.py
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 hp-levels -> ../share/hplip/levels.py
+lrwxrwxrwx 1 root root          28 déc.  13 17:43 hp-logcapture -> ../share/hplip/logcapture.py
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 hp-makeuri -> ../share/hplip/makeuri.py
+lrwxrwxrwx 1 root root          27 déc.  13 17:43 hp-pkservice -> ../share/hplip/pkservice.py
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 hp-plugin -> ../share/hplip/plugin.py
+-rwxr-xr-x 1 root root         719 mars   7  2018 hp-plugin-ubuntu
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 hp-probe -> ../share/hplip/probe.py
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 hp-query -> ../share/hplip/query.py
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 hp-scan -> ../share/hplip/scan.py
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 hp-setup -> ../share/hplip/setup.py
+lrwxrwxrwx 1 root root          26 déc.  13 17:43 hp-testpage -> ../share/hplip/testpage.py
+lrwxrwxrwx 1 root root          26 déc.  13 17:43 hp-timedate -> ../share/hplip/timedate.py
+-rwxr-xr-x 1 root root       10830 avril 10  2019 hwe-support-status
+lrwxrwxrwx 1 root root           7 août  23 01:47 i386 -> setarch
+lrwxrwxrwx 1 root root          34 déc.  14 16:26 i686-linux-gnu-pkg-config -> /usr/share/pkg-config-crosswrapper
+-rwxr-xr-x 1 root root       39032 avril 21  2017 iceauth
+-rwxr-xr-x 1 root root       49288 mai   31  2016 ico
+-rwxr-xr-x 1 root root       10104 avril 23  2016 icontopbm
+-rwxr-xr-x 1 root root       63744 avril 16  2018 iconv
+-rwxr-xr-x 1 root root       43224 janv. 18  2018 id
+lrwxrwxrwx 1 root root          26 déc.  13 17:43 identify -> /etc/alternatives/identify
+lrwxrwxrwx 1 root root          30 déc.  13 17:43 identify-im6 -> /etc/alternatives/identify-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 identify-im6.q16
+-rwxr-xr-x 1 root root       43000 déc.   6  2017 idevicebackup
+-rwxr-xr-x 1 root root       59392 déc.   6  2017 idevicebackup2
+-rwxr-xr-x 1 root root       22520 déc.   6  2017 idevicecrashreport
+-rwxr-xr-x 1 root root       14328 déc.   6  2017 idevicedate
+-rwxr-xr-x 1 root root       14328 déc.   6  2017 idevicedebug
+-rwxr-xr-x 1 root root       18424 déc.   6  2017 idevicedebugserverproxy
+-rwxr-xr-x 1 root root       14328 déc.   6  2017 idevicediagnostics
+-rwxr-xr-x 1 root root       10232 déc.   6  2017 ideviceenterrecovery
+-rwxr-xr-x 1 root root       10232 déc.   6  2017 idevice_id
+-rwxr-xr-x 1 root root       22760 déc.   6  2017 ideviceimagemounter
+-rwxr-xr-x 1 root root       22600 déc.   6  2017 ideviceinfo
+-rwxr-xr-x 1 root root       35216 avril  3  2018 ideviceinstaller
+-rwxr-xr-x 1 root root       10232 déc.   6  2017 idevicename
+-rwxr-xr-x 1 root root       14328 déc.   6  2017 idevicenotificationproxy
+-rwxr-xr-x 1 root root       30936 déc.   6  2017 idevicepair
+-rwxr-xr-x 1 root root       26616 déc.   6  2017 ideviceprovision
+-rwxr-xr-x 1 root root       10232 déc.   6  2017 idevicescreenshot
+-rwxr-xr-x 1 root root       10232 déc.   6  2017 idevicesyslog
+-rwxr-xr-x 1 root root       18504 févr. 15  2017 iecset
+-rwxr-xr-x 1 root root       23208 déc.   6  2017 ifuse
+-rwxr-xr-x 1 root root        3189 févr. 11  2018 igawk
+-rwxr-xr-x 1 root root       31112 févr. 10  2018 ijs_pxljr
+-rwxr-xr-x 1 root root       79824 avril 23  2016 ilbmtoppm
+-rwxr-xr-x 1 root root        1241 avril 23  2016 imagetops
+-rwxr-xr-x 1 root root       11011 déc.  23  2017 im-config
+-rwxr-xr-x 1 root root       10104 avril 23  2016 imgtoppm
+-rwxr-xr-x 1 root root        1030 déc.  23  2017 im-launch
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 import -> /etc/alternatives/import
+lrwxrwxrwx 1 root root          28 déc.  13 17:43 import-im6 -> /etc/alternatives/import-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 import-im6.q16
+-rwxr-xr-x 1 root root      251616 févr.  5  2018 info
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 infobrowser -> /etc/alternatives/infobrowser
+-rwxr-xr-x 1 root root       59464 mai   23  2018 infocmp
+lrwxrwxrwx 1 root root           3 déc.  13 17:43 infotocap -> tic
+-rwxr-xr-x 1 root root       26064 juil.  2  2017 inputattach
+-rwxr-xr-x 1 root root      145664 janv. 18  2018 install
+-rwxr-xr-x 1 root root       44128 févr.  5  2018 install-info
+-rwxr-xr-x 1 root root      272736 juin   5  2018 install-menu
+-rwxr-xr-x 1 root root          95 avril  3  2018 install-printerdriver
+-rwxr-xr-x 1 root root        7338 déc.  14  2016 installwatch
+-rwxr-xr-x 1 root root        4370 nov.  19  2018 instmodsh
+-rwxr-xr-x 1 root root       67576 févr.  1  2019 intel-virtual-output
+-rwxr-xr-x 1 root root       47696 oct.  23  2016 interdiff
+-rwxr-xr-x 1 root root      556420 janv. 17  2018 inxi
+-rwxr-xr-x 1 root root       26704 août  23 01:47 ionice
+-rwxr-xr-x 1 root root       26768 août  23 01:47 ipcmk
+-rwxr-xr-x 1 root root       26704 août  23 01:47 ipcrm
+-rwxr-xr-x 1 root root       51280 août  23 01:47 ipcs
+-rwxr-xr-x 1 root root       18424 déc.   5  2017 ipod-read-sysinfo-extended
+-rwxr-xr-x 1 root root       10232 déc.   5  2017 ipod-time-sync
+-rwxr-xr-x 1 root root       39000 août  16 09:12 ippfind
+-rwxr-xr-x 1 root root       83968 août  16 09:12 ipptool
+lrwxrwxrwx 1 root root          19 déc.  13 17:43 iptables-xml -> /sbin/xtables-multi
+-rwxr-xr-x 1 root root       10280 déc.  30  2017 ischroot
+-rwxr-xr-x 1 root root       18448 nov.  27  2018 isdv4-serial-debugger
+-rwxr-xr-x 1 root root       18448 nov.  27  2018 isdv4-serial-inputattach
+-rwxr-xr-x 1 root root      179320 avril 21  2017 isodump
+-rwxr-xr-x 1 root root      346488 avril 21  2017 isoinfo
+-rwxr-xr-x 1 root root      179320 avril 21  2017 isovfy
+-rwxr-xr-x 1 root root        7222 oct.  10  2016 ispell-wrapper
+-rwxr-xr-x 1 root root       47320 janv. 18  2018 join
+-rwxr-xr-x 1 root root       30664 avril 23  2016 jpegtopnm
+-rwxr-xr-x 1 root root       30736 sept. 20  2018 jpgicc
+-rwxr-xr-x 1 root root        3959 nov.  19  2018 json_pp
+-rwxr-xr-x 1 root root       14408 janv. 22  2018 kbdinfo
+-rwxr-xr-x 1 root root      162496 janv. 10  2019 kbxutil
+-rwxr-xr-x 1 root root        4508 janv. 28  2018 kernel-install
+-rwxr-xr-x 1 root root       10232 déc.   1  2017 kerneloops-submit
+-rwxr-xr-x 1 root root         385 janv.  9  2018 keyring
+-rwxr-xr-x 1 root root       27768 déc.  11  2018 killall
+-rwxr-xr-x 1 root root       14472 févr.  5  2018 kmodsign
+-rwxr-xr-x 1 root root        3759 déc.  14  2017 koi8rxterm
+-rwxr-xr-x 1 root root       98152 sept. 10 23:25 l2ping
+-rwxr-xr-x 1 root root      114792 sept. 10 23:25 l2test
+-rwxr-xr-x 1 root root        3820 août  12  2017 laptop-detect
+-rwxr-xr-x 1 root root       43088 août  23 01:47 last
+lrwxrwxrwx 1 root root           4 août  23 01:47 lastb -> last
+-rwxr-xr-x 1 root root       18504 mars  22  2019 lastlog
+-rwxr-xr-x 1 root root       18424 févr. 25  2018 lavadecode
+-rwxr-xr-x 1 root root        7786 févr. 26  2018 lcf
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 lconvert -> qtchooser
+lrwxrwxrwx 1 root root          19 déc.  13 17:43 ld -> x86_64-linux-gnu-ld
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 ld.bfd -> x86_64-linux-gnu-ld.bfd
+-rwxr-xr-x 1 root root        5420 avril 16  2018 ldd
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 ld.gold -> x86_64-linux-gnu-ld.gold
+-rwxr-xr-x 1 root root       10104 avril 23  2016 leaftoppm
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 less -> /bin/less
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 lessecho -> /bin/lessecho
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 lessfile -> /bin/lessfile
+lrwxrwxrwx 1 root root          12 déc.  13 17:43 lesskey -> /bin/lesskey
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 lesspipe -> /bin/lesspipe
+-rwxr-xr-x 1 root root       92744 août   4  2018 lexgrog
+-rwxr-xr-x 1 root root       15775 nov.  19  2018 libnetcfg
+-rwxr-xr-x 1 root root        2471 avril 30  2019 libpng16-config
+lrwxrwxrwx 1 root root          15 avril 30  2019 libpng-config -> libpng16-config
+lrwxrwxrwx 1 root root          34 sept. 21 13:44 libreoffice -> ../lib/libreoffice/program/soffice
+-rwxr-xr-x 1 root root       10344 mars  14  2018 libwacom-list-local-devices
+-rwxr-xr-x 1 root root         463 nov.  23  2017 lightdm-settings
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 linguist -> qtchooser
+-rwxr-xr-x 1 root root       30904 janv. 18  2018 link
+-rwxr-xr-x 1 root root       22584 sept. 20  2018 linkicc
+lrwxrwxrwx 1 root root          32 déc.  13 17:43 lintian -> ../share/lintian/frontend/dplint
+lrwxrwxrwx 1 root root          32 déc.  13 17:43 lintian-info -> ../share/lintian/frontend/dplint
+lrwxrwxrwx 1 root root          32 déc.  13 17:43 lintian-lab-tool -> ../share/lintian/frontend/dplint
+lrwxrwxrwx 1 root root           7 août  23 01:47 linux32 -> setarch
+lrwxrwxrwx 1 root root           7 août  23 01:47 linux64 -> setarch
+-rwxr-xr-x 1 root root        1577 janv. 21  2017 linux-boot-prober
+-rwxr-xr-x 1 root root        4090 juin  21  2016 linux-check-removal
+-rwxr-xr-x 1 root root        6320 juin   5  2016 linux-update-symlinks
+-rwxr-xr-x 1 root root        2696 sept. 17  2016 linux-version
+-rwxr-xr-x 1 root root       10104 avril 23  2016 lispmtopgm
+-rwxr-xr-x 1 root root       10664 avril 21  2017 listres
+-rwxr-xr-x 1 root root       22888 févr. 26  2018 lnstat
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 loadkeys -> /bin/loadkeys
+-rwxr-xr-x 1 root root       26760 janv. 22  2018 loadunimap
+-rwxr-xr-x 1 root root          59 sept. 21 13:44 localc
+-rwxr-xr-x 1 root root       50592 avril 16  2018 locale
+-rwxr-xr-x 1 root root       10240 sept. 27 20:24 locale-check
+-rwxr-xr-x 1 root root       22600 nov.  15 16:01 localectl
+-rwxr-xr-x 1 root root      338744 avril 16  2018 localedef
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 locate -> /etc/alternatives/locate
+-rwxr-xr-x 1 root root          59 sept. 21 13:44 lodraw
+-rwxr-xr-x 1 root root          53 sept. 21 13:44 loffice
+-rwxr-xr-x 1 root root          64 sept. 21 13:44 lofromtemplate
+-rwxr-xr-x 1 root root       47792 août  23 01:47 logger
+-rwxr-xr-x 1 root root       30904 janv. 18  2018 logname
+-rwxr-xr-x 1 root root          62 sept. 21 13:44 loimpress
+-rwxr-xr-x 1 root root          59 sept. 21 13:44 lomath
+-rwxr-xr-x 1 root root       10472 janv. 17  2018 look
+-rwxr-xr-x 1 root root        2885 janv. 17  2018 lorder
+-rwxr-xr-x 1 root root          58 sept. 21 13:44 loweb
+-rwxr-xr-x 1 root root          61 sept. 21 13:44 lowriter
+-rwxr-xr-x 1 root root       18424 août  16 09:12 lp
+-rwxr-xr-x 1 root root       14408 août  16 09:12 lpoptions
+-rwxr-xr-x 1 root root       18504 août  16 09:12 lpq
+-rwxr-xr-x 1 root root       14328 août  16 09:12 lpr
+-rwxr-xr-x 1 root root       10232 août  16 09:12 lprm
+-rwxr-xr-x 1 root root       51192 juin   3  2017 lp_solve
+-rwxr-xr-x 1 root root       31008 août  16 09:12 lpstat
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 lrelease -> qtchooser
+-rwxr-xr-x 1 root root       10240 sept. 26 20:01 lsattr
+-rwxr-xr-x 1 root root        3638 août   7  2017 lsb_release
+-rwxr-xr-x 1 root root       71760 août  23 01:47 lscpu
+lrwxrwxrwx 1 root root          10 déc.  13 17:43 lsdiff -> filterdiff
+-rwxr-xr-x 1 root root      687056 juil. 10  2018 lshw
+-rwxr-xr-x 1 root root         625 oct.   7 12:53 lsinitramfs
+-rwxr-xr-x 1 root root       71760 août  23 01:47 lsipc
+-rwxr-xr-x 1 root root       35232 août  23 01:47 lslocks
+-rwxr-xr-x 1 root root       63568 août  23 01:47 lslogins
+-rwxr-xr-x 1 root root       43088 août  23 01:47 lsmem
+-rwxr-xr-x 1 root root       38992 août  23 01:47 lsns
+-rwxr-xr-x 1 root root      163224 oct.  28  2015 lsof
+-rwxr-xr-x 1 root root       81584 févr. 10  2019 lspci
+-rwxr-xr-x 1 root root        1081 août  28  2017 lspgpot
+-rwxr-xr-x 1 root root      117176 avril 21  2017 lsusb
+-rwxr-xr-x 1 root root      333016 oct.  13  2016 ltrace
+-rwxr-xr-x 1 root root       49272 avril 21  2017 luit
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 lupdate -> qtchooser
+-rwxr-xr-x 1 root root       10292 mai   21  2019 lwp-download
+-rwxr-xr-x 1 root root        2711 mai   21  2019 lwp-dump
+-rwxr-xr-x 1 root root        2413 mai   21  2019 lwp-mirror
+-rwxr-xr-x 1 root root       16217 mai   21  2019 lwp-request
+-rwxr-xr-x 1 root root         419 déc.  14  2017 lxterm
+lrwxrwxrwx 1 root root           2 déc.  13 17:43 lz -> uz
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 lzcat -> /etc/alternatives/lzcat
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 lzcmp -> /etc/alternatives/lzcmp
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 lzdiff -> /etc/alternatives/lzdiff
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 lzegrep -> /etc/alternatives/lzegrep
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 lzfgrep -> /etc/alternatives/lzfgrep
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 lzgrep -> /etc/alternatives/lzgrep
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 lzless -> /etc/alternatives/lzless
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 lzma -> /etc/alternatives/lzma
+-rwxr-xr-x 1 root root       10384 juin  28  2017 lzmainfo
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 lzmore -> /etc/alternatives/lzmore
+-rwxr-xr-x 1 root root       29224 févr. 10  2018 m2300w
+-rwxr-xr-x 1 root root       14578 févr. 10  2018 m2300w-wrapper
+-rwxr-xr-x 1 root root       29224 févr. 10  2018 m2400w
+-rwxr-xr-x 1 root root       10104 avril 23  2016 macptopbm
+-rwxr-xr-x 1 root root      222792 avril 17  2018 make
+-rwxr-xr-x 1 root root        4905 avril 17  2018 make-first-existing-target
+-rwxr-xr-x 1 root root      107008 août   4  2018 man
+-rwxr-xr-x 1 root root      129760 août   4  2018 mandb
+-rwxr-xr-x 1 root root       31200 août   4  2018 manpath
+-rwxr-xr-x 1 root root       22664 janv. 22  2018 mapscrn
+-rwxr-xr-x 1 root root      605824 avril 25  2018 marco
+-rwxr-xr-x 1 root root        2098 mars  29  2018 marco-compton
+-rwxr-xr-x 1 root root       10232 avril 25  2018 marco-message
+-rwxr-xr-x 1 root root         200 mars  29  2018 marco-no-composite
+-rwxr-xr-x 1 root root       31560 avril 25  2018 marco-theme-viewer
+-rwxr-xr-x 1 root root       32008 avril 25  2018 marco-window-demo
+-rwxr-xr-x 1 root root       43712 avril 18  2018 mate-about
+-rwxr-xr-x 1 root root       59744 avril 25  2018 mate-about-me
+-rwxr-xr-x 1 root root      186528 avril 25  2018 mate-appearance-properties
+-rwxr-xr-x 1 root root       18424 avril 25  2018 mate-at-properties
+-rwxr-xr-x 1 root root      268184 avril  5  2018 mate-calc
+-rwxr-xr-x 1 root root      136600 avril  5  2018 mate-calc-cmd
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 mate-calculator -> mate-calc
+-rwxr-xr-x 1 root root       10232 avril 18  2018 mate-color-select
+-rwxr-xr-x 1 root root       14328 avril 25  2018 mate-control-center
+-rwxr-xr-x 1 root root       30792 avril 18  2018 mate-cpufreq-selector
+-rwxr-xr-x 1 root root       30792 avril 25  2018 mate-default-applications-properties
+-rwxr-xr-x 1 root root      100696 avril 25  2018 mate-desktop-item-edit
+-rwxr-xr-x 1 root root      108616 févr.  7  2018 mate-dictionary
+-rwxr-xr-x 1 root root      129224 févr.  7  2018 mate-disk-usage-analyzer
+-rwxr-xr-x 1 root root       75848 avril 25  2018 mate-display-properties
+-rwxr-xr-x 1 root root      313520 nov.  30  2017 mate-eiciel
+-rwxr-xr-x 1 root root       67720 avril 25  2018 mate-font-viewer
+-rwxr-xr-x 1 root root       67656 avril 25  2018 mate-keybinding-properties
+-rwxr-xr-x 1 root root       67912 avril 25  2018 mate-keyboard-properties
+-rwxr-xr-x 1 root root       35048 févr. 14  2018 mate-maximus
+-rwxr-xr-x 1 root root        2132 avril 18  2018 mate-menu
+-rwxr-xr-x 1 root root       30792 avril 25  2018 mate-mouse-properties
+-rwxr-xr-x 1 root root       22520 avril 25  2018 mate-network-properties
+-rwxr-xr-x 1 root root       18424 avril 18  2018 mate-notification-properties
+-rwxr-xr-x 1 root root         199 août  17  2017 mate-open
+-rwxr-xr-x 1 root root      598048 avril 25  2018 mate-panel
+lrwxrwxrwx 1 root root          15 déc.  13 17:43 mate-panel-screenshot -> mate-screenshot
+-rwxr-xr-x 1 root root       55576 avril 25  2018 mate-panel-test-applets
+-rwxr-xr-x 1 root root      190544 avril 14  2018 mate-power-manager
+-rwxr-xr-x 1 root root       55296 avril 14  2018 mate-power-preferences
+-rwxr-xr-x 1 root root       75776 avril 14  2018 mate-power-statistics
+-rwxr-xr-x 1 root root      162120 févr. 13  2018 mate-screensaver
+-rwxr-xr-x 1 root root       19064 févr. 13  2018 mate-screensaver-command
+-rwxr-xr-x 1 root root       63680 févr. 13  2018 mate-screensaver-preferences
+-rwxr-xr-x 1 root root       67736 févr.  7  2018 mate-screenshot
+-rwxr-xr-x 1 root root       98072 janv. 18  2018 mate-seahorse-tool
+-rwxr-xr-x 1 root root      167872 févr.  7  2018 mate-search-tool
+-rwxr-xr-x 1 root root      248144 févr. 13  2018 mate-session
+-rwxr-xr-x 1 root root       10232 févr. 13  2018 mate-session-inhibit
+-rwxr-xr-x 1 root root       67696 févr. 13  2018 mate-session-properties
+-rwxr-xr-x 1 root root       10680 févr. 13  2018 mate-session-save
+-rwxr-xr-x 1 root root       39240 avril 18  2018 mate-settings-daemon
+-rwxr-xr-x 1 root root      113896 févr.  7  2018 mate-system-log
+-rwxr-xr-x 1 root root      288992 févr. 13  2018 mate-system-monitor
+-rwxr-xr-x 1 root root      336584 avril 18  2018 mate-terminal
+-rwxr-xr-x 1 root root        1600 avril 18  2018 mate-terminal.wrapper
+-rwxr-xr-x 1 root root       22528 avril 25  2018 mate-thumbnail-font
+-rwxr-xr-x 1 root root       80646 avril  5  2018 mate-tweak
+-rwxr-xr-x 1 root root       43080 avril 25  2018 mate-typing-monitor
+-rwxr-xr-x 1 root root      137288 févr. 13  2018 mate-volume-control
+-rwxr-xr-x 1 root root       59504 févr. 13  2018 mate-volume-control-applet
+-rwxr-xr-x 1 root root       30712 avril 25  2018 mate-window-properties
+-rwxr-xr-x 1 root root        3514 févr. 13  2018 mate-wm
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mattrib -> mtools
+-rwxr-xr-x 1 root root      125416 avril  3  2018 mawk
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mbadblocks -> mtools
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mcat -> mtools
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mcd -> mtools
+-rwxr-xr-x 1 root root        1679 sept.  8  2016 mcheck
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mclasserase -> mtools
+-rwxr-xr-x 1 root root         847 sept.  8  2016 mcomp
+-rwxr-xr-x 1 root root       30864 août  23 01:47 mcookie
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mcopy -> mtools
+-rwxr-xr-x 1 root root       43224 janv. 18  2018 md5sum
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 md5sum.textutils -> md5sum
+-rwxr-xr-x 1 root root       10104 avril 23  2016 mdatopbm
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mdel -> mtools
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mdeltree -> mtools
+-rwxr-xr-x 1 root root       43136 nov.  18 16:01 mdig
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mdir -> mtools
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mdu -> mtools
+-rwxr-xr-x 1 root root       10312 août  23 01:47 mesg
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mformat -> mtools
+-rwxr-xr-x 1 root root       10104 avril 23  2016 mgrtopbm
+-rwxr-xr-x 1 root root        2194 déc.   1  2017 migrate-pubring-from-classic-gpg
+-rwxr-xr-x 1 root root        8626 déc.  15  2017 mimeopen
+-rwxr-xr-x 1 root root       12095 déc.  15  2017 mimetype
+-rwxr-xr-x 1 root root       23856 févr. 10  2018 min12xxw
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 minfo -> mtools
+-rwxr-xr-x 1 root root       63672 janv. 18  2018 mkfifo
+-rwxr-xr-x 1 root root          65 mars  18  2018 mkfontdir
+-rwxr-xr-x 1 root root       39440 mars  18  2018 mkfontscale
+lrwxrwxrwx 1 root root          11 déc.  13 17:43 mkisofs -> genisoimage
+-rwxr-xr-x 1 root root       14432 sept.  8  2016 mkmanifest
+-rwxr-xr-x 1 root root       16163 janv. 22  2018 mk_modmap
+-rwxr-xr-x 1 root root      189432 juil.  5  2018 mksquashfs
+-rwxr-xr-x 1 root root       22664 avril 21  2017 mkzftree
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mlabel -> mtools
+-rwxr-sr-x 1 root mlocate    43088 mars   1  2018 mlocate
+-rwxr-xr-x 1 root root      204616 mai    6  2019 mmcli
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mmd -> mtools
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mmount -> mtools
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mmove -> mtools
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 moc -> qtchooser
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 mogrify -> /etc/alternatives/mogrify
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 mogrify-im6 -> /etc/alternatives/mogrify-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 mogrify-im6.q16
+-rwxr-xr-x 1 root root       48360 oct.  11  2018 mokutil
+-rwxr-xr-x 1 root root       10232 févr.  1  2018 monitor-sensor
+lrwxrwxrwx 1 root root          25 déc.  13 17:43 montage -> /etc/alternatives/montage
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 montage-im6 -> /etc/alternatives/montage-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 montage-im6.q16
+-rwxr-xr-x 1 root root        1210 févr. 14  2018 mozo
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mpartition -> mtools
+-rwxr-xr-x 1 root root       59480 janv. 19  2017 mpeg2desc
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mrd -> mtools
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mren -> mtools
+-rwxr-xr-x 1 root root       10240 avril 21  2017 mscompress
+-rwxr-xr-x 1 root root       34888 avril 18  2018 msd-datetime-mechanism
+-rwxr-xr-x 1 root root       34888 avril 18  2018 msd-locate-pointer
+-rwxr-xr-x 1 root root       10240 avril 21  2017 msexpand
+-rwxr-xr-x 1 root root       22600 févr. 21  2019 msgattrib
+-rwxr-xr-x 1 root root       22600 févr. 21  2019 msgcat
+-rwxr-xr-x 1 root root       22608 févr. 21  2019 msgcmp
+-rwxr-xr-x 1 root root       22600 févr. 21  2019 msgcomm
+-rwxr-xr-x 1 root root       18504 févr. 21  2019 msgconv
+-rwxr-xr-x 1 root root       18504 févr. 21  2019 msgen
+-rwxr-xr-x 1 root root       14408 févr. 21  2019 msgexec
+-rwxr-xr-x 1 root root       26696 févr. 21  2019 msgfilter
+-rwxr-xr-x 1 root root       80144 févr. 21  2019 msgfmt
+-rwxr-xr-x 1 root root       35008 févr. 21  2019 msggrep
+-rwxr-xr-x 1 root root       63912 févr. 21  2019 msginit
+-rwxr-xr-x 1 root root       68040 févr. 21  2019 msgmerge
+-rwxr-xr-x 1 root root       30808 févr. 21  2019 msgunfmt
+-rwxr-xr-x 1 root root       18504 févr. 21  2019 msguniq
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mshortname -> mtools
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mshowfat -> mtools
+-rwxr-xr-x 1 root root      189280 sept.  8  2016 mtools
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mtoolstest -> mtools
+-rwxr-xr-x 1 root root       73664 nov.   2  2017 mtr
+-rwxr-xr-x 1 root root        6494 avril 16  2018 mtrace
+-rwxr-xr-x 1 root root       26616 nov.   2  2017 mtr-packet
+-rwxr-xr-x 1 root root       10104 avril 23  2016 mtvtoppm
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mtype -> mtools
+-rwxr-xr-x 1 root root         784 sept.  8  2016 mxtar
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 mzip -> mtools
+-rwxr-xr-x 1 root root       26704 août  23 01:47 namei
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 nawk -> /etc/alternatives/nawk
+-rwxr-xr-x 1 root root       29480 janv. 17  2018 ncal
+-rwxr-xr-x 1 root root        6052 mai   23  2018 ncursesw5-config
+-rwxr-xr-x 1 root root       10104 avril 23  2016 neotoppm
+-rwxr-xr-x 1 root root         908 févr. 10  2018 neqn
+-rwxr-xr-x 1 root root      904008 nov.  29 14:57 net
+-rwxr-xr-x 1 root root      101064 déc.   6  2016 netkit-ftp
+-rwxr-xr-x 1 root root       88880 juil. 20  2017 network-admin
+-rwxr-xr-x 1 root root       18203 oct.  15  2018 networkd-dispatcher
+-rwsr-xr-x 1 root root       40344 mars  22  2019 newgrp
+-rwxr-xr-x 1 root root       34896 févr. 21  2019 ngettext
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 nice
+-rwxr-xr-x 1 root root       43288 janv. 18  2018 nl
+lrwxrwxrwx 1 root root          19 déc.  13 17:43 nm -> x86_64-linux-gnu-nm
+-rwxr-xr-x 1 root root      315016 oct.  15 10:50 nm-applet
+-rwxr-xr-x 1 root root      116904 nov.  29 14:57 nmblookup
+-rwxr-xr-x 1 root root      694992 sept.  7 16:10 nmcli
+-rwxr-xr-x 1 root root      981552 oct.  15 10:50 nm-connection-editor
+-rwxr-xr-x 1 root root       14320 sept.  7 16:10 nm-online
+-rwxr-xr-x 1 root root      249152 sept.  7 16:10 nmtui
+lrwxrwxrwx 1 root root           5 sept.  7 16:10 nmtui-connect -> nmtui
+lrwxrwxrwx 1 root root           5 sept.  7 16:10 nmtui-edit -> nmtui
+lrwxrwxrwx 1 root root           5 sept.  7 16:10 nmtui-hostname -> nmtui
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 nohup
+-rwxr-xr-x 1 root root       14424 déc.  19  2017 notify-send
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 nproc
+-rwxr-xr-x 1 root root        3323 févr. 10  2018 nroff
+-rwxr-xr-x 1 root root       31008 août  23 01:47 nsenter
+-rwxr-xr-x 1 root root      133640 nov.  18 16:01 nslookup
+-rwxr-xr-x 1 root root       26696 févr. 26  2018 nstat
+-rwxr-xr-x 1 root root       67608 nov.  18 16:01 nsupdate
+-rwxr-xr-x 1 root root       47224 mars  21  2019 ntfsdecrypt
+-rwxr-xr-x 1 root root       63736 janv. 18  2018 numfmt
+-rwxr-xr-x 1 root root         270 sept. 17 16:34 nvidia-detector
+-rwxr-xr-x 1 root root          47 sept. 11 13:39 nvlc
+-rwxr-xr-x 1 root root       18440 févr. 25  2018 oakdecode
+-rwxr-xr-x 1 root root      149640 sept. 10 23:25 obexctl
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 objcopy -> x86_64-linux-gnu-objcopy
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 objdump -> x86_64-linux-gnu-objdump
+-rwxr-xr-x 1 root root       23896 mai   31  2016 oclock
+-rwxr-xr-x 1 root root       67800 janv. 18  2018 od
+lrwxrwxrwx 1 root root          17 déc.  13 17:43 on_ac_power -> /sbin/on_ac_power
+-rwxr-xr-x 1 root root        1274 oct.   4  2017 onboard
+-rwxr-xr-x 1 root root         845 oct.   4  2017 onboard-settings
+-rwxr-xr-x 1 root root      723944 nov.  12 17:58 openssl
+-rwxr-xr-x 1 root root       14328 févr. 25  2018 opldecode
+-rwxr-xr-x 1 root root        8719 avril 19  2018 orca
+-rwxr-xr-x 1 root root          70 avril 19  2018 orca-dm-wrapper
+-rwxr-xr-x 1 root root        4551 janv. 31  2017 os-prober
+-rwxr-xr-x 1 root root       34904 oct.  14  2017 p11-kit
+-rwxr-xr-x 1 root root        4754 févr.  5  2018 p7zip
+-rwxr-xr-x 1 root root       43120 juil. 25 05:48 pacat
+-rwxr-xr-x 1 root root       18504 juil. 25 05:48 pacmd
+-rwxr-xr-x 1 root root       63576 juil. 25 05:48 pactl
+-rwxr-xr-x 1 root root        2259 juil. 25 05:48 padsp
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 pager -> /etc/alternatives/pager
+-rwxr-xr-x 1 root root       18296 avril 23  2016 palmtopnm
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pamcut
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pamdeinterlace
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pamdice
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pamfile
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pamoil
+lrwxrwxrwx 1 root root           5 juil. 25 05:48 pamon -> pacat
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pamstack
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pamstretch
+-rwxr-xr-x 1 root root        1343 avril 23  2016 pamstretch-gen
+-rwxr-xr-x 1 root root       10232 avril 28  2017 paperconf
+lrwxrwxrwx 1 root root           5 juil. 25 05:48 paplay -> pacat
+lrwxrwxrwx 1 root root           5 juil. 25 05:48 parec -> pacat
+lrwxrwxrwx 1 root root           5 juil. 25 05:48 parecord -> pacat
+-rwxr-xr-x 1 root root        8837 déc.  16  2016 parsechangelog
+-rwxr-xr-x 1 root root       88144 août  23 01:47 partx
+-rwsr-xr-x 1 root root       59640 mars  22  2019 passwd
+-rwxr-xr-x 1 root root       35032 janv. 18  2018 paste
+-rwxr-xr-x 1 root root       14416 juil. 25 05:48 pasuspender
+-rwxr-xr-x 1 root root      182648 juil. 23 14:12 patch
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 pathchk
+-rwxr-xr-x 1 root root       14328 juil. 25 05:48 pax11publish
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmclean
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmlife
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmmake
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmmask
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmpage
+-rwxr-xr-x 1 root root       10216 avril 23  2016 pbmpscale
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmreduce
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtext
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pbmtextps
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmto10x
+-rwxr-xr-x 1 root root       10384 avril 23  2016 pbmtoascii
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtoatk
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtobbnbg
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtocmuwm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtoepsi
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtoepson
+-rwxr-xr-x 1 root root       13288 avril 23  2016 pbmtog3
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtogem
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtogo
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtoicon
+-rwxr-xr-x 1 root root       14216 avril 23  2016 pbmtolj
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtomacp
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtomda
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtomgr
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtonokia
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtopgm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtopi3
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtoplot
+-rwxr-xr-x 1 root root       34688 avril 23  2016 pbmtoppa
+-rwxr-xr-x 1 root root       11784 avril 23  2016 pbmtopsg3
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtoptx
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtowbmp
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtox10bm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtoxbm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtoybm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pbmtozinc
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pbmupc
+-rwxr-xr-x 1 root root       14472 févr. 10  2019 pcimodules
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pcxtoppm
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 pdb -> pdb2.7
+lrwxrwxrwx 1 root root          23 oct.   7 19:39 pdb2.7 -> ../lib/python2.7/pdb.py
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 pdb3 -> pdb3.6
+lrwxrwxrwx 1 root root          23 nov.   7 11:44 pdb3.6 -> ../lib/python3.6/pdb.py
+-rwxr-xr-x 1 root root         698 nov.   6 16:46 pdf2dsc
+-rwxr-xr-x 1 root root         909 nov.   6 16:46 pdf2ps
+-rwxr-xr-x 1 root root       19088 août   7 19:12 pdfdetach
+-rwxr-xr-x 1 root root       18624 août   7 19:12 pdffonts
+-rwxr-xr-x 1 root root       55488 août   7 19:12 pdfimages
+-rwxr-xr-x 1 root root       43200 août   7 19:12 pdfinfo
+-rwxr-xr-x 1 root root       14408 août   7 19:12 pdfseparate
+-rwxr-xr-x 1 root root       18504 août   7 19:12 pdfsig
+-rwxr-xr-x 1 root root      149616 août   7 19:12 pdftocairo
+-rwxr-xr-x 1 root root      100456 août   7 19:12 pdftohtml
+-rwxr-xr-x 1 root root       26728 août   7 19:12 pdftoppm
+-rwxr-xr-x 1 root root       22728 août   7 19:12 pdftops
+-rwxr-xr-x 1 root root       35024 août   7 19:12 pdftotext
+-rwxr-xr-x 1 root root       30792 août   7 19:12 pdfunite
+-rwxr-xr-x 1 root root       14328 déc.  11  2018 peekfd
+-rwxr-xr-x 1 root root     2097720 nov.  19  2018 perl
+-rwxr-xr-x 1 root root     2097720 nov.  19  2018 perl5.26.1
+-rwxr-xr-x 1 root root       10216 nov.  19  2018 perl5.26-x86_64-linux-gnu
+-rwxr-xr-x 1 root root       45853 nov.  19  2018 perlbug
+-rwxr-xr-x 1 root root         125 nov.  19  2018 perldoc
+-rwxr-xr-x 1 root root       53669 mars   3  2018 perli11ndoc
+-rwxr-xr-x 1 root root       10864 nov.  19  2018 perlivp
+-rwxr-xr-x 1 root root       45853 nov.  19  2018 perlthanks
+-rwxr-xr-x 1 root root         498 nov.   6 16:46 pf2afm
+-rwxr-xr-x 1 root root         516 nov.   6 16:46 pfbtopfa
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 pftp -> /etc/alternatives/pftp
+-rwxr-xr-x 1 root root        6008 avril 23  2016 pgmbentley
+-rwxr-xr-x 1 root root       14232 avril 23  2016 pgmcrater
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmedge
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmenhance
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmhist
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmkernel
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmnoise
+lrwxrwxrwx 1 root root           7 déc.  13 17:43 pgmnorm -> pnmnorm
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 pgmoil -> pamoil
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmramp
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmslice
+-rwxr-xr-x 1 root root       26488 avril 23  2016 pgmtexture
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmtofs
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmtolispm
+-rwxr-xr-x 1 root root       16680 avril 23  2016 pgmtopbm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pgmtoppm
+-rwxr-xr-x 1 root root       26712 août   9 17:37 pgrep
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pi1toppm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pi3topbm
+-rwxr-xr-x 1 root root      208928 févr. 10  2018 pic
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 pico -> /etc/alternatives/pico
+-rwxr-xr-x 1 root root        8357 nov.  19  2018 piconv
+lrwxrwxrwx 1 root root          26 déc.  13 17:43 pinentry -> /etc/alternatives/pinentry
+-rwxr-xr-x 1 root root       72184 févr.  6  2018 pinentry-gnome3
+lrwxrwxrwx 1 root root          30 déc.  13 17:43 pinentry-x11 -> /etc/alternatives/pinentry-x11
+-rwxr-xr-x 1 root root       39128 janv. 18  2018 pinky
+-rwxr-xr-x 1 root root         293 avril  3  2019 pip3
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 pixeltool -> qtchooser
+-rwxr-xr-x 1 root root       14216 avril 23  2016 pjtoppm
+-rwxr-xr-x 1 root root       14328 mars  27  2019 pkaction
+-rwxr-xr-x 1 root root       18504 mars  27  2019 pkcheck
+-rwxr-xr-x 1 root root       67576 mars   4  2019 pkcon
+-rwsr-xr-x 1 root root       22520 mars  27  2019 pkexec
+-rwxr-xr-x 2 root root       51296 avril 21  2017 pkg-config
+lrwxrwxrwx 1 root root           5 août   9 17:37 pkill -> pgrep
+-rwxr-xr-x 1 root root       18424 mars   4  2019 pkmon
+-rwxr-xr-x 1 root root       14328 mars  27  2019 pkttyagent
+-rwxr-xr-x 1 root root        4533 nov.  19  2018 pl2pm
+-rwxr-xr-x 1 root root       10312 déc.  12  2017 plank
+-rwxr-xr-x 1 root root       18656 avril 16  2018 pldd
+-rwxr-xr-x 1 root root       10232 avril 25  2018 plistutil
+-rwxr-xr-x 1 root root         146 févr. 26  2018 plog
+-rwxr-xr-x 1 root root      657576 avril 25  2018 pluma
+-rwxr-xr-x 1 root root       30808 août   9 17:37 pmap
+-rwxr-xr-x 1 root root         981 janv. 22  2017 pm-is-supported
+-rwxr-xr-x 1 root root       47184 avril 30  2019 pngfix
+-rwxr-xr-x 1 root root       10232 avril 30  2019 png-fix-itxt
+-rwxr-xr-x 1 root root       22480 avril 23  2016 pngtopnm
+-rwxr-xr-x 1 root root     1652232 août  12  2016 pnm2ppa
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pnmalias
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmarith
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmcat
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pnmcolormap
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmcomp
+-rwxr-xr-x 1 root root       38776 avril 23  2016 pnmconvol
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pnmcrop
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pnmcut
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmdepth
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmenlarge
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmfile
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmflip
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pnmgamma
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmhisteq
+-rwxr-xr-x 1 root root       10112 avril 23  2016 pnmhistmap
+-rwxr-xr-x 1 root root        4601 avril 23  2016 pnmindex
+lrwxrwxrwx 1 root root          10 déc.  13 17:43 pnminterp -> pamstretch
+lrwxrwxrwx 1 root root          14 déc.  13 17:43 pnminterp-gen -> pamstretch-gen
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnminvert
+-rwxr-xr-x 1 root root        1768 avril 23  2016 pnmmargin
+-rwxr-xr-x 1 root root       14208 avril 23  2016 pnmmontage
+-rwxr-xr-x 1 root root       22456 avril 23  2016 pnmnlfilt
+lrwxrwxrwx 1 root root          13 déc.  13 17:43 pnmnoraw -> pnmtoplainpnm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmnorm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmpad
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmpaste
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmpsnr
+-rwxr-xr-x 1 root root        3203 avril 23  2016 pnmquant
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pnmremap
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pnmrotate
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pnmscale
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pnmscalefixed
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmshear
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmsmooth
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmsplit
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmtile
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pnmtoddif
+-rwxr-xr-x 1 root root      204696 avril 23  2016 pnmtofiasco
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmtofits
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pnmtojpeg
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pnmtopalm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmtoplainpnm
+-rwxr-xr-x 1 root root       30648 avril 23  2016 pnmtopng
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pnmtops
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmtorast
+-rwxr-xr-x 1 root root       39064 avril 23  2016 pnmtorle
+-rwxr-xr-x 1 root root       14200 avril 23  2016 pnmtosgi
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmtosir
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pnmtotiff
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pnmtotiffcmyk
+-rwxr-xr-x 1 root root       10104 avril 23  2016 pnmtoxwd
+-rwxr-xr-x 1 root root        4134 nov.  19  2018 pod2html
+-rwxr-xr-x 1 root root       15079 nov.  19  2018 pod2man
+-rwxr-xr-x 1 root root       10979 nov.  19  2018 pod2text
+-rwxr-xr-x 1 root root        3948 nov.  19  2018 pod2usage
+-rwxr-xr-x 1 root root        3658 nov.  19  2018 podchecker
+-rwxr-xr-x 1 root root        2527 nov.  19  2018 podselect
+-rwxr-xr-x 1 root root        2837 févr. 26  2018 poff
+-rwxr-xr-x 1 root root        1362 févr. 26  2018 pon
+lrwxrwxrwx 1 root root          11 déc.  13 17:43 POST -> lwp-request
+-rwxr-xr-x 1 root root       18520 août  16 09:12 ppdc
+-rwxr-xr-x 1 root root       10328 août  16 09:12 ppdhtml
+-rwxr-xr-x 1 root root       10328 août  16 09:12 ppdi
+-rwxr-xr-x 1 root root       14408 août  16 09:12 ppdmerge
+-rwxr-xr-x 1 root root       10328 août  16 09:12 ppdpo
+-rwxr-xr-x 1 root root         404 nov.   6 16:46 pphs
+-rwxr-xr-x 1 root root       14200 avril 23  2016 ppm3d
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmbrighten
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmchange
+-rwxr-xr-x 1 root root       26664 avril 23  2016 ppmcie
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmcolormask
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmcolors
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmdim
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmdist
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmdither
+-rwxr-xr-x 1 root root       11661 avril 23  2016 ppmfade
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmflash
+-rwxr-xr-x 1 root root       22408 avril 23  2016 ppmforge
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmhist
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmlabel
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmmake
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmmix
+lrwxrwxrwx 1 root root           7 déc.  13 17:43 ppmnorm -> pnmnorm
+-rwxr-xr-x 1 root root       14208 avril 23  2016 ppmntsc
+-rwxr-xr-x 1 root root       22392 avril 23  2016 ppmpat
+-rwxr-xr-x 1 root root       18296 avril 23  2016 ppmquant
+-rwxr-xr-x 1 root root        2072 avril 23  2016 ppmquantall
+-rwxr-xr-x 1 root root       14200 avril 23  2016 ppmqvga
+-rwxr-xr-x 1 root root        1706 avril 23  2016 ppmrainbow
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmrelief
+-rwxr-xr-x 1 root root        6832 avril 23  2016 ppmshadow
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmshift
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmspread
+-rwxr-xr-x 1 root root       15072 avril 23  2016 ppmtoacad
+-rwxr-xr-x 1 root root       14256 avril 23  2016 ppmtobmp
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtoeyuv
+-rwxr-xr-x 1 root root       18304 avril 23  2016 ppmtogif
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtoicr
+-rwxr-xr-x 1 root root       38872 avril 23  2016 ppmtoilbm
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 ppmtojpeg -> pnmtojpeg
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtoleaf
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtolj
+-rwxr-xr-x 1 root root          81 avril 23  2016 ppmtomap
+-rwxr-xr-x 1 root root       18296 avril 23  2016 ppmtomitsu
+-rwxr-xr-x 1 root root      562976 avril 23  2016 ppmtompeg
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtoneo
+-rwxr-xr-x 1 root root       14200 avril 23  2016 ppmtopcx
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtopgm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtopi1
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtopict
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtopj
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtopuzz
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtorgb3
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtosixel
+-rwxr-xr-x 1 root root       14200 avril 23  2016 ppmtotga
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtouil
+-rwxr-xr-x 1 root root       18320 avril 23  2016 ppmtowinicon
+-rwxr-xr-x 1 root root       14200 avril 23  2016 ppmtoxpm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtoyuv
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtoyuvsplit
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ppmtv
+-rwxr-xr-x 1 root root       71960 janv. 18  2018 pr
+-rwxr-xr-x 1 root root        5656 oct.  15 14:12 precat
+-rwxr-xr-x 1 root root       47304 févr. 10  2018 preconv
+-rwxr-xr-x 1 root root        5656 oct.  15 14:12 preunzip
+-rwxr-xr-x 1 root root        5656 oct.  15 14:12 prezip
+-rwxr-xr-x 1 root root       10232 oct.  15 14:12 prezip-bin
+-rwxr-xr-x 1 root root        9893 août  27  2018 prime-select
+-rwxr-xr-x 1 root root        1182 août  27  2018 prime-supported
+lrwxrwxrwx 1 root root          11 déc.  13 17:43 print -> run-mailcap
+-rwxr-xr-x 1 root root         395 nov.   6 16:46 printafm
+-rwxr-xr-x 1 root root       30904 janv. 18  2018 printenv
+-rwxr-xr-x 1 root root       22528 janv. 17  2018 printerbanner
+-rwxr-xr-x 1 root root        5640 févr. 25  2018 printer-profile
+-rwxr-xr-x 1 root root       51384 janv. 18  2018 printf
+-rwxr-xr-x 1 root root       35424 août  23 01:47 prlimit
+-rwxr-xr-x 1 root root       13588 nov.  19  2018 prove
+-rwxr-xr-x 1 root root       10232 mars  28  2018 proxy
+-rwxr-xr-x 1 root root       18504 déc.  11  2018 prtstat
+-rwxr-xr-x 1 root root         631 nov.   6 16:46 ps2ascii
+-rwxr-xr-x 1 root root        2752 nov.   6 16:46 ps2epsi
+-rwxr-xr-x 1 root root         272 nov.   6 16:46 ps2pdf
+-rwxr-xr-x 1 root root         215 nov.   6 16:46 ps2pdf12
+-rwxr-xr-x 1 root root         215 nov.   6 16:46 ps2pdf13
+-rwxr-xr-x 1 root root         215 nov.   6 16:46 ps2pdf14
+-rwxr-xr-x 1 root root        1097 nov.   6 16:46 ps2pdfwr
+-rwxr-xr-x 1 root root         647 nov.   6 16:46 ps2ps
+-rwxr-xr-x 1 root root         669 nov.   6 16:46 ps2ps2
+lrwxrwxrwx 1 root root           8 nov.   6 16:46 ps2txt -> ps2ascii
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 psfaddtable -> psfxtable
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 psfgettable -> psfxtable
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 psfstriptable -> psfxtable
+-rwxr-xr-x 1 root root       18424 janv. 22  2018 psfxtable
+-rwxr-xr-x 1 root root       18440 sept. 20  2018 psicc
+-rwxr-xr-x 1 root root       10104 avril 23  2016 psidtopgm
+-rwxr-xr-x 1 root root       10232 déc.  11  2018 pslog
+-rwxr-xr-x 1 root root       18296 avril 23  2016 pstopnm
+-rwxr-xr-x 1 root root       27592 déc.  11  2018 pstree
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 pstree.x11 -> pstree
+-rwxr-xr-x 1 root root        3549 nov.  19  2018 ptar
+-rwxr-xr-x 1 root root        2628 nov.  19  2018 ptardiff
+-rwxr-xr-x 1 root root        4392 nov.  19  2018 ptargrep
+-rwxr-xr-x 1 root root       71928 janv. 18  2018 ptx
+-rwxr-xr-x 1 root root       92328 juil. 25 05:48 pulseaudio
+-rwxr-xr-x 1 root root       10312 août   9 17:37 pwdx
+-rwxr-xr-x 1 root root        7812 oct.  25  2018 py3clean
+-rwxr-xr-x 1 root root       12119 oct.  25  2018 py3compile
+lrwxrwxrwx 1 root root          31 déc.  13 17:43 py3versions -> ../share/python3/py3versions.py
+lrwxrwxrwx 1 root root          26 mars  26  2018 pybuild -> ../share/dh-python/pybuild
+-rwxr-xr-x 1 root root        4124 avril 16  2018 pyclean
+-rwxr-xr-x 1 root root       11895 avril 16  2018 pycompile
+lrwxrwxrwx 1 root root           8 déc.  13 17:43 pydoc -> pydoc2.7
+-rwxr-xr-x 1 root root          79 oct.   7 19:39 pydoc2.7
+lrwxrwxrwx 1 root root           8 déc.  13 17:43 pydoc3 -> pydoc3.6
+-rwxr-xr-x 1 root root          79 nov.   7 11:44 pydoc3.6
+lrwxrwxrwx 1 root root          12 déc.  13 17:43 pygettext -> pygettext2.7
+-rwxr-xr-x 1 root root       22082 oct.   7 19:39 pygettext2.7
+lrwxrwxrwx 1 root root          12 déc.  13 17:43 pygettext3 -> pygettext3.6
+-rwxr-xr-x 1 root root       21547 nov.   7 11:44 pygettext3.6
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 python -> python2.7
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 python2 -> python2.7
+-rwxr-xr-x 1 root root     3641704 oct.   7 19:39 python2.7
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 python3 -> python3.6
+-rwxr-xr-x 2 root root     4526456 nov.   7 11:44 python3.6
+lrwxrwxrwx 1 root root          33 nov.   7 11:44 python3.6-config -> x86_64-linux-gnu-python3.6-config
+-rwxr-xr-x 2 root root     4526456 nov.   7 11:44 python3.6m
+lrwxrwxrwx 1 root root          34 nov.   7 11:44 python3.6m-config -> x86_64-linux-gnu-python3.6m-config
+lrwxrwxrwx 1 root root          16 oct.  25  2018 python3-config -> python3.6-config
+lrwxrwxrwx 1 root root          10 déc.  13 17:43 python3m -> python3.6m
+lrwxrwxrwx 1 root root          17 oct.  25  2018 python3m-config -> python3.6m-config
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 pyversions -> ../share/python/pyversions.py
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qcollectiongenerator -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qdbus -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qdbuscpp2xml -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qdbusviewer -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qdbusxml2cpp -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qdoc -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qdoc3 -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qgltf -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qhelpconverter -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qhelpgenerator -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qlalr -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmake -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qml -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qml1plugindump -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmlbundle -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmlcachegen -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmleasing -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmlimportscanner -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmljs -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmllint -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmlmin -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmlplugindump -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmlprofiler -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmlscene -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmltestrunner -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qmlviewer -> qtchooser
+-rwxr-xr-x 1 root root       96440 avril 15  2018 qpdf
+-rwxr-xr-x 1 root root       18720 févr. 25  2018 qpdldecode
+-rwxr-xr-x 1 root root       10104 avril 23  2016 qrttoppm
+-rwxr-xr-x 1 root root       43096 déc.  21  2017 qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qtconfig -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qtdiag -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qtpaths -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qtplugininfo -> qtchooser
+-rwxr-xr-x 1 root root        2453 sept. 17 16:34 quirks-handler
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 qvkgen -> qtchooser
+-rwxr-xr-x 1 root root          42 sept. 11 13:39 qvlc
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 ranlib -> x86_64-linux-gnu-ranlib
+-rwxr-xr-x 1 root root       14200 avril 23  2016 rasttopnm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 rawtopgm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 rawtoppm
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 rcc -> qtchooser
+lrwxrwxrwx 1 root root          21 déc.  13 17:43 rcp -> /etc/alternatives/rcp
+-rwxr-xr-x 1 root root      144840 sept. 10 23:25 rctest
+-rwxr-xr-x 1 root root        8927 janv. 29  2019 rdiffdir
+-rwxr-xr-x 1 root root       26696 févr. 26  2018 rdma
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 readelf -> x86_64-linux-gnu-readelf
+-rwxr-xr-x 1 root root      208264 avril 21  2017 readom
+-rwxr-xr-x 1 root root       47320 janv. 18  2018 realpath
+-rwxr-xr-x 1 root root       14408 févr. 21  2019 recode-sr-latin
+-rwxr-xr-x 1 root root        3445 oct.  23  2016 recountdiff
+-rwxr-xr-x 1 root root       34928 oct.  23  2016 rediff
+-rwxr-xr-x 1 root root       55368 juin   1  2016 redshift
+-rwxr-xr-x 1 root root         986 juin   1  2016 redshift-gtk
+-rwxr-xr-x 1 root root       14408 août  23 01:47 rename.ul
+-rwxr-xr-x 1 root root       56984 mai   31  2016 rendercheck
+-rwxr-xr-x 1 root root       14408 août  23 01:47 renice
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 repc -> qtchooser
+lrwxrwxrwx 1 root root           4 déc.  13 17:43 reset -> tset
+-rwxr-xr-x 1 root root       18504 déc.  14  2017 resize
+-rwxr-xr-x 1 root root       18568 janv. 22  2018 resizecons
+-rwxr-xr-x 1 root root       38992 août  23 01:47 resizepart
+-rwxr-xr-x 1 root root       10312 août  23 01:47 rev
+-rwxr-xr-x 1 root root      107032 sept. 10 23:25 rfcomm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 rgb3toppm
+-rwxr-xr-x 1 root root          30 juil. 11  2017 rgrep
+-rwxr-xr-x 1 root root       10232 mars  26  2018 rhythmbox
+-rwxr-xr-x 1 root root       44968 mars  26  2018 rhythmbox-client
+-rwxr-xr-x 1 root root       34936 avril 23  2016 rletopnm
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 rlogin -> /etc/alternatives/rlogin
+-rwxr-xr-x 1 root root      359392 févr.  4  2018 rofi
+-rwxr-xr-x 1 root root         755 févr.  4  2018 rofi-sensible-terminal
+-rwxr-xr-x 1 root root        5086 févr.  4  2018 rofi-theme-selector
+-rwxr-xr-x 1 root root         208 févr. 26  2018 routef
+-rwxr-xr-x 1 root root        1656 févr. 26  2018 routel
+-rwxr-xr-x 1 root root     1197784 nov.  29 14:57 rpcclient
+-rwxr-xr-x 1 root root      100896 avril 16  2018 rpcgen
+-rwxr-xr-x 1 root root       30792 janv. 27  2018 rpl8
+lrwxrwxrwx 1 root root          21 déc.  13 17:43 rsh -> /etc/alternatives/rsh
+-rwxr-xr-x 1 root root        2610 avril 21  2017 rstart
+-rwxr-xr-x 1 root root        1469 avril 21  2017 rstartd
+-rwxr-xr-x 1 root root      500024 janv. 18  2018 rsync
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 rtstat -> lnstat
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 runcon
+-rwxr-xr-x 1 root root       18161 juil. 15  2016 run-mailcap
+-rwxr-xr-x 1 root root          57 oct.  15 14:12 run-with-aspell
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 rview -> /etc/alternatives/rview
+-rwxr-xr-x 1 root root          42 sept. 11 13:39 rvlc
+-rwxr-xr-x 1 root root       97208 nov.  29 14:57 samba-regedit
+-rwxr-xr-x 1 root root        1553 nov.  29 14:57 samba-tool
+-rwxr-xr-x 1 root root      113360 août   8 20:27 sane-find-scanner
+-rwxr-xr-x 1 root root       10469 déc.  30  2017 savelog
+-rwxr-xr-x 1 root root       51504 févr.  5  2018 sbattach
+-rwxr-xr-x 1 root root       10200 avril 23  2016 sbigtopgm
+-rwxr-xr-x 1 root root       55856 févr.  5  2018 sbkeysync
+-rwxr-xr-x 1 root root       51600 févr.  5  2018 sbsiglist
+-rwxr-xr-x 1 root root       51568 févr.  5  2018 sbsign
+-rwxr-xr-x 1 root root       55728 févr.  5  2018 sbvarsign
+-rwxr-xr-x 1 root root       51536 févr.  5  2018 sbverify
+-rwxr-xr-x 1 root root       51992 août   8 20:27 scanimage
+-rwxr-xr-x 1 root root      100496 mars   4  2019 scp
+-rwxr-xr-x 1 root root          90 avril  3  2018 scp-dbus-service
+-rwxr-xr-x 1 root root       10232 janv. 22  2018 screendump
+-rwxr-xr-x 1 root root       30792 août  23 01:47 script
+-rwxr-xr-x 1 root root       26704 août  23 01:47 scriptreplay
+-rwxr-xr-x 1 root root       51296 août   4  2017 sdiff
+-rwxr-xr-x 1 root root      209848 sept. 10 23:25 sdptool
+-rwxr-xr-x 1 root root     1133824 déc.  16  2017 seahorse
+-rwxr-xr-x 1 root root      375112 déc.  25  2017 seahorse-daemon
+lrwxrwxrwx 1 root root          11 déc.  13 17:43 see -> run-mailcap
+-rwxr-xr-x 1 root root         474 oct.  10  2016 select-default-iwrap
+-rwxr-xr-x 1 root root        2442 mars  12  2018 select-editor
+-rwxr-xr-x 1 root root        1209 mars  12  2018 sensible-browser
+-rwxr-xr-x 1 root root        1109 mars  12  2018 sensible-editor
+-rwxr-xr-x 1 root root         433 mars  12  2018 sensible-pager
+-rwxr-xr-x 1 root root       27080 avril  5  2017 sensors
+-rwxr-xr-x 1 root root       14027 avril  5  2017 sensors-conf-convert
+-rwxr-xr-x 1 root root       47288 janv. 18  2018 seq
+-rwxr-xr-x 1 root root        1059 mars  16  2016 session-installer
+-rwxr-xr-x 1 root root       14328 janv. 23  2018 session-migration
+-rwxr-xr-x 1 root root       14328 avril 21  2017 sessreg
+-rwxr-xr-x 1 root root       18784 août  23 01:47 setarch
+lrwxrwxrwx 1 root root          12 déc.  13 17:43 setfacl -> /bin/setfacl
+-rwxr-xr-x 1 root root       10312 janv. 22  2018 setkeycodes
+-rwxr-xr-x 1 root root       14392 janv. 22  2018 setleds
+-rwxr-xr-x 1 root root       10312 janv. 22  2018 setlogcons
+-rwxr-xr-x 1 root root       10344 janv. 22  2018 setmetamode
+-rwxr-xr-x 1 root root       26704 févr. 10  2019 setpci
+-rwxr-xr-x 1 root root       10312 août  23 01:47 setsid
+-rwxr-xr-x 1 root root       43088 août  23 01:47 setterm
+-rwxr-xr-x 1 root root       22928 mai   16  2018 setxkbmap
+-rwxr-xr-x 1 root root      153960 mars   4  2019 sftp
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 sg -> newgrp
+-rwxr-xr-x 1 root root       14200 avril 23  2016 sgitopnm
+-rwxr-xr-x 1 root root       47320 janv. 18  2018 sha1sum
+-rwxr-xr-x 1 root root       55512 janv. 18  2018 sha224sum
+-rwxr-xr-x 1 root root       55512 janv. 18  2018 sha256sum
+-rwxr-xr-x 1 root root       59608 janv. 18  2018 sha384sum
+-rwxr-xr-x 1 root root       59608 janv. 18  2018 sha512sum
+-rwxr-xr-x 1 root root      112528 juil. 20  2017 shares-admin
+-rwxr-xr-x 1 root root        9371 nov.  19  2018 shasum
+-rwxr-xr-x 1 root root     4980648 nov.  12  2018 shotwell
+-rwxr-xr-x 1 root root       18504 janv. 22  2018 showconsolefont
+-rwxr-xr-x 1 root root       14408 janv. 22  2018 showkey
+-rwxr-xr-x 1 root root       10232 avril 21  2017 showrgb
+-rwxr-xr-x 1 root root       59608 janv. 18  2018 shred
+-rwxr-xr-x 1 root root       55480 janv. 18  2018 shuf
+-rwxr-xr-x 1 root root      436520 mars  27  2018 simple-scan
+-rwxr-xr-x 1 root root       10104 avril 23  2016 sirtopnm
+lrwxrwxrwx 1 root root          21 déc.  13 17:43 size -> x86_64-linux-gnu-size
+-rwxr-xr-x 1 root root       26704 août   9 17:37 skill
+-rwxr-xr-x 1 root root       18512 août   9 17:37 slabtop
+-rwxr-xr-x 1 root root       18368 avril 23  2016 sldtoppm
+-rwxr-xr-x 1 root root        1611 févr. 17  2018 slick-greeter-check-hidpi
+-rwxr-xr-x 1 root root        1962 févr. 17  2018 slick-greeter-set-keyboard-layout
+lrwxrwxrwx 1 root root           3 déc.  13 17:43 slogin -> ssh
+-rwxr-xr-x 1 root root       18424 févr. 25  2018 slxdecode
+-rwxr-xr-x 1 root root       38992 nov.  29 14:57 smbcacls
+-rwxr-xr-x 1 root root      149984 nov.  29 14:57 smbclient
+-rwxr-xr-x 1 root root       22520 nov.  29 14:57 smbcquotas
+-rwxr-xr-x 1 root root       22608 nov.  29 14:57 smbget
+-rwxr-xr-x 1 root root       30712 nov.  29 14:57 smbpasswd
+-rwxr-xr-x 1 root root       18424 nov.  29 14:57 smbspool
+-rwxr-xr-x 1 root root        4896 juil.  4  2017 smbtar
+-rwxr-xr-x 1 root root       14336 nov.  29 14:57 smbtree
+-rwxr-xr-x 1 root root       22528 avril 21  2017 smproxy
+-rwxr-xr-x 1 root root    14487176 oct.  30 13:17 snap
+lrwxrwxrwx 1 root root          20 oct.  30 13:17 snapctl -> ../lib/snapd/snapctl
+-rwxr-xr-x 1 root root       34952 oct.  30 13:17 snapfuse
+lrwxrwxrwx 1 root root           5 août   9 17:37 snice -> skill
+-rwxr-xr-x 1 root root       30920 févr. 10  2018 soelim
+lrwxrwxrwx 1 root root          34 sept. 21 13:44 soffice -> ../lib/libreoffice/program/soffice
+-rwxr-xr-x 1 root root        4176 juil. 12 16:10 software-properties-gtk
+-rwxr-xr-x 1 root root      113120 janv. 18  2018 sort
+-rwxr-xr-x 1 root root        4306 avril 16  2018 sotruss
+-rwxr-xr-x 1 root root       10104 avril 23  2016 spctoppm
+-rwxr-xr-x 1 root root         220 avril 23  2018 spd-conf
+-rwxr-xr-x 1 root root       23272 avril 23  2018 spd-say
+-rwxr-xr-x 1 root root       30848 févr. 15  2017 speaker-test
+-rwxr-xr-x 1 root root      141400 avril 23  2018 speech-dispatcher
+lrwxrwxrwx 1 root root          32 déc.  13 17:43 spellintian -> ../share/lintian/frontend/dplint
+-rwxr-xr-x 1 root root       63584 déc.  15  2017 spice-vdagent
+-rwxr-xr-x 1 root root       19150 nov.  19  2018 splain
+-rwxr-xr-x 1 root root       55936 janv. 18  2018 split
+-rwxr-xr-x 1 root root        3461 oct.  23  2016 splitdiff
+-rwxr-xr-x 1 root root       10232 janv. 22  2018 splitfont
+-rwxr-xr-x 1 root root       26840 avril 16  2018 sprof
+-rwxr-xr-x 1 root root      139248 janv. 19  2017 spumux
+-rwxr-xr-x 1 root root       10104 avril 23  2016 sputoppm
+-rwxr-xr-x 1 root root       71760 janv. 19  2017 spuunmux
+-rwxr-xr-x 1 root root      727848 mars   4  2019 ssh
+-rwxr-xr-x 1 root root      346248 mars   4  2019 ssh-add
+-rwxr-sr-x 1 root ssh       362640 mars   4  2019 ssh-agent
+-rwxr-xr-x 1 root root        1456 janv. 16  2018 ssh-argv0
+-rwxr-xr-x 1 root root       10658 oct.   2  2017 ssh-copy-id
+-rwxr-xr-x 1 root root      420000 mars   4  2019 ssh-keygen
+-rwxr-xr-x 1 root root      420000 mars   4  2019 ssh-keyscan
+-rwxr-xr-x 1 root root       10104 avril 23  2016 st4topgm
+-rwxr-xr-x 1 root root        1542 juil. 25 05:48 start-pulseaudio-x11
+-rwxr-xr-x 1 root root        5517 janv. 31  2018 startx
+-rwxr-xr-x 1 root root       80088 janv. 18  2018 stat
+-rwxr-xr-x 1 root root       47288 janv. 18  2018 stdbuf
+-rwxr-xr-x 1 root root     1378552 avril 11  2018 strace
+-rwxr-xr-x 1 root root        2644 févr. 14  2018 strace-log-merge
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 stream -> /etc/alternatives/stream
+lrwxrwxrwx 1 root root          28 déc.  13 17:43 stream-im6 -> /etc/alternatives/stream-im6
+-rwxr-xr-x 1 root root        6136 nov.  11 19:01 stream-im6.q16
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 strings -> x86_64-linux-gnu-strings
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 strip -> x86_64-linux-gnu-strip
+-rwsr-xr-x 1 root root      149080 oct.  10 20:32 sudo
+lrwxrwxrwx 1 root root           4 oct.  10 20:32 sudoedit -> sudo
+-rwxr-xr-x 1 root root       56128 oct.  10 20:32 sudoreplay
+-rwxr-xr-x 1 root root       39104 janv. 18  2018 sum
+-rwxr-xr-x 1 root root        3120 juin   5  2018 su-to-root
+-rwxr-xr-x 1 root root          46 sept. 11 13:39 svlc
+-rwxr-xr-x 1 root root      113384 janv. 10  2019 symcryptrun
+-rwxr-xr-x 1 root root      199008 oct.  17  2017 syslinux
+-rwxr-xr-x 1 root root       29528 avril 21  2017 syslinux-legacy
+-rwxr-xr-x 1 root root          95 avril  3  2018 system-config-printer
+-rwxr-xr-x 1 root root          80 avril  3  2018 system-config-printer-applet
+-rwxr-xr-x 1 root root     1538312 nov.  15 16:01 systemd-analyze
+-rwxr-xr-x 1 root root       10312 nov.  15 16:01 systemd-cat
+-rwxr-xr-x 1 root root       14408 nov.  15 16:01 systemd-cgls
+-rwxr-xr-x 1 root root       30816 nov.  15 16:01 systemd-cgtop
+-rwxr-xr-x 1 root root       22600 nov.  15 16:01 systemd-delta
+-rwxr-xr-x 1 root root       10304 nov.  15 16:01 systemd-detect-virt
+-rwxr-xr-x 1 root root       43104 nov.  15 16:01 systemd-mount
+-rwxr-xr-x 1 root root       10304 nov.  15 16:01 systemd-path
+-rwxr-xr-x 1 root root       88136 nov.  15 16:01 systemd-resolve
+-rwxr-xr-x 1 root root       43080 nov.  15 16:01 systemd-run
+-rwxr-xr-x 1 root root       18504 nov.  15 16:01 systemd-socket-activate
+-rwxr-xr-x 1 root root       14408 nov.  15 16:01 systemd-stdio-bridge
+lrwxrwxrwx 1 root root          13 nov.  15 16:01 systemd-umount -> systemd-mount
+-rwxr-xr-x 1 root root       39152 nov.  15  2017 t1ascii
+-rwxr-xr-x 1 root root       44304 nov.  15  2017 t1asm
+-rwxr-xr-x 1 root root       39120 nov.  15  2017 t1binary
+-rwxr-xr-x 1 root root       43176 nov.  15  2017 t1disasm
+-rwxr-xr-x 1 root root       47408 nov.  15  2017 t1mac
+-rwxr-xr-x 1 root root       43384 nov.  15  2017 t1unmac
+-rwxr-xr-x 1 root root       14328 mai   23  2018 tabs
+-rwxr-xr-x 1 root root       39096 janv. 18  2018 tac
+-rwxr-xr-x 1 root root       67832 janv. 18  2018 tail
+-rwxr-xr-x 1 root root       30800 août  23 01:47 taskset
+-rwxr-xr-x 1 root root      129224 févr. 10  2018 tbl
+lrwxrwxrwx 1 root root           8 nov.  20  2015 tclsh -> tclsh8.6
+-rwxr-xr-x 1 root root        6136 févr. 22  2018 tclsh8.6
+-rwxr-xr-x 1 root root        7645 nov.  20  2015 tcltk-depends
+-rwxr-xr-x 1 root root       35032 janv. 18  2018 tee
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 telnet -> /etc/alternatives/telnet
+-rwxr-xr-x 1 root root      111024 nov.   7  2016 telnet.netkit
+-rwxr-xr-x 1 root root       47288 janv. 18  2018 test
+-rwxr-xr-x 1 root root       30712 nov.  29 14:57 testparm
+-rwxr-xr-x 1 root root       14200 avril 23  2016 tgatoppm
+-rwxr-xr-x 1 root root        2295 sept.  8  2016 tgz
+-rwxr-xr-x 1 root root       18304 avril 23  2016 thinkjettopbm
+lrwxrwxrwx 1 root root          33 déc.   1 12:13 thunderbird -> ../lib/thunderbird/thunderbird.sh
+-rwxr-xr-x 1 root root       84080 mai   23  2018 tic
+-rwxr-xr-x 1 root root       18296 avril 23  2016 tifftopnm
+-rwxr-xr-x 1 root root       30800 sept. 20  2018 tificc
+-rwxr-xr-x 1 root root      156952 févr. 18  2018 tilda
+-rwxr-xr-x 1 root root       14720 avril 21  2017 time
+-rwxr-xr-x 1 root root      124720 juil. 20  2017 time-admin
+-rwxr-xr-x 1 root root       22600 nov.  15 16:01 timedatectl
+-rwxr-xr-x 1 root root       39552 janv. 18  2018 timeout
+-rwxr-xr-x 1 root root       14424 août   9 17:37 tload
+-rwxr-xr-x 1 root root      254024 janv. 14  2018 toc2cddb
+-rwxr-xr-x 1 root root      254024 janv. 14  2018 toc2cue
+-rwxr-xr-x 1 root root       14328 mai   23  2018 toe
+-rwxr-xr-x 1 root root      108304 août   9 17:37 top
+lrwxrwxrwx 1 root root          10 déc.  13 17:43 touch -> /bin/touch
+-rwxr-xr-x 1 root root       18456 mai   23  2018 tput
+-rwxr-xr-x 1 root root       47288 janv. 18  2018 tr
+-rwxr-xr-x 1 root root       14344 juin  28  2019 tracepath
+lrwxrwxrwx 1 root root          29 déc.  13 17:43 traceroute6 -> /etc/alternatives/traceroute6
+-rwsr-xr-x 1 root root       18448 juin  28  2019 traceroute6.iputils
+-rwxr-xr-x 1 root root       34824 sept. 20  2018 transicc
+-rwxr-xr-x 1 root root      829192 févr.  6  2018 transmission-gtk
+-rwxr-xr-x 1 root root       18928 mai   31  2016 transset
+-rwxr-xr-x 1 root root      736608 févr. 10  2018 troff
+-rwxr-xr-x 1 root root       39096 janv. 18  2018 truncate
+-rwxr-xr-x 1 root root      215416 oct.  14  2017 trust
+-rwxr-xr-x 1 root root       22528 mai   23  2018 tset
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 tsort
+-rwxr-xr-x 1 root root       10232 mai    9  2019 ttfread
+-rwxr-xr-x 1 root root       30904 janv. 18  2018 tty
+-rwxr-xr-x 1 root root       15395 avril 16  2018 tzselect
+lrwxrwxrwx 1 root root          16 déc.  13 17:43 ua -> ubuntu-advantage
+-rwxr-xr-x 1 root root        4596 mars  21  2018 ubuntu-advantage
+lrwxrwxrwx 1 root root          10 nov.   5 03:49 ubuntu-bug -> apport-bug
+lrwxrwxrwx 1 root root          25 oct.  30 13:17 ubuntu-core-launcher -> ../lib/snapd/snap-confine
+-rwxr-xr-x 1 root root        8951 sept. 17 16:34 ubuntu-drivers
+-rwxr-xr-x 1 root root     5893648 juin  24  2019 ubuntu-report
+-rwxr-xr-x 1 root root        8033 avril 10  2019 ubuntu-support-status
+-rwxr-xr-x 1 root root       40685 févr. 26  2018 ucf
+-rwxr-xr-x 1 root root       19367 févr. 26  2018 ucfq
+-rwxr-xr-x 1 root root       10722 févr. 26  2018 ucfr
+-rwxr-xr-x 1 root root       22520 mars  18  2018 ucs2any
+-rwxr-xr-x 1 root root       55368 sept. 26  2018 udisksctl
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 uic -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 uic3 -> qtchooser
+-rwxr-xr-x 1 root root       14344 janv. 17  2018 ul
+-rwxr-xr-x 1 root root      175176 août   8 20:27 umax_pp
+-rwxr-xr-x 1 root root       84529 nov.  25 16:23 unattended-upgrade
+lrwxrwxrwx 1 root root          18 nov.  25 16:23 unattended-upgrades -> unattended-upgrade
+-rwxr-xr-x 1 root root       39128 janv. 18  2018 unexpand
+-rwxr-xr-x 1 root root         530 janv. 22  2018 unicode_stop
+-rwxr-xr-x 1 root root       43224 janv. 18  2018 uniq
+-rwxr-xr-x 1 root root       10312 avril 11  2018 unity-scope-loader
+-rwxr-xr-x 1 root root       30904 janv. 18  2018 unlink
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 unlzma -> /etc/alternatives/unlzma
+-rwxr-xr-x 1 root root        2859 oct.   7 12:53 unmkinitramfs
+-rwxr-xr-x 1 root root          52 sept. 21 13:44 unopkg
+-rwxr-xr-x 1 root root       18712 août  23 01:47 unshare
+-rwxr-xr-x 1 root root       98008 juil.  5  2018 unsquashfs
+-rwxr-xr-x 1 root root        5940 oct.  23  2016 unwrapdiff
+lrwxrwxrwx 1 root root           2 déc.  13 17:43 unxz -> xz
+-rwxr-xr-x 1 root root      174216 avril 28  2017 unzip
+-rwxr-xr-x 1 root root       79992 avril 28  2017 unzipsfx
+-rwxr-xr-x 1 root root       47112 sept.  5 23:05 update-alternatives
+lrwxrwxrwx 1 root root          26 déc.  13 17:43 updatedb -> /etc/alternatives/updatedb
+-rwxr-xr-x 1 root root       47184 mars   1  2018 updatedb.mlocate
+-rwxr-xr-x 1 root root       22600 nov.   6  2018 update-desktop-database
+-rwxr-xr-x 1 root root        4589 avril 10  2019 update-manager
+-rwxr-xr-x 1 root root      133752 juin   5  2018 update-menus
+-rwxr-xr-x 1 root root       51392 oct.  10  2017 update-mime-database
+-rwxr-xr-x 1 root root       72520 mai   24  2019 update-notifier
+-rwxr-xr-x 1 root root        6177 juin   1  2012 update-perl-sax-parsers
+-rwxr-xr-x 1 root root       14328 janv. 25  2019 upower
+-rwxr-xr-x 1 root root       10312 août   9 17:37 uptime
+-rwxr-xr-x 1 root root        2936 juil. 16 19:40 usb-creator-gtk
+-rwxr-xr-x 1 root root        4216 avril 21  2017 usb-devices
+-rwxr-xr-x 1 root root       22608 avril 21  2017 usbhid-dump
+-rwxr-xr-x 1 root root       10232 févr. 25  2018 usb_printerid
+-rwxr-xr-x 1 root root       35000 janv. 18  2018 users
+-rwxr-xr-x 1 root root      150000 juil. 20  2017 users-admin
+-rwxr-xr-x 1 root root       22600 août  23 01:47 utmpdump
+-rwxr-xr-x 1 root root       14408 août  23 01:47 uuidgen
+-rwxr-xr-x 1 root root       34896 août  23 01:47 uuidparse
+-rwxr-xr-x 1 root root        3674 déc.  14  2017 uxterm
+-rwxr-xr-x 1 root root        2496 sept.  8  2016 uz
+lrwxrwxrwx 1 root root          20 déc.  13 17:43 vi -> /etc/alternatives/vi
+lrwxrwxrwx 1 root root          22 déc.  13 17:43 view -> /etc/alternatives/view
+-rwxr-xr-x 1 root root       27608 avril 21  2017 viewres
+-rwxr-xr-x 1 root root     1108024 juin   6  2019 vim.tiny
+-rwxr-xr-x 1 root root       14328 sept. 11 13:39 vlc
+-rwxr-xr-x 1 root root       10232 sept. 11 13:39 vlc-wrapper
+-rwxr-xr-x 1 root root       34912 août   9 17:37 vmstat
+-rwxr-xr-x 1 root root       10344 nov.  27  2018 vmwarectrl
+-rwxr-xr-x 1 root root       10232 mars  28  2017 volname
+-rwxr-xr-x 1 root root       22536 août  29  2018 vstp
+lrwxrwxrwx 1 root root          19 déc.  13 17:43 w -> /etc/alternatives/w
+-rwxr-sr-x 1 root tty        30800 août  23 01:47 wall
+-rwxr-xr-x 1 root root       22952 août   9 17:37 watch
+-rwxr-xr-x 1 root root       14328 janv. 10  2019 watchgnupg
+-rwxr-xr-x 1 root root       10104 avril 23  2016 wbmptopbm
+-rwxr-xr-x 1 root root       43200 janv. 18  2018 wc
+-rwxr-xr-x 1 root root      499264 avril  8  2019 wget
+-rwxr-xr-x 1 root root       48104 août   4  2018 whatis
+-rwxr-xr-x 1 root root       27144 août  23 01:47 whereis
+lrwxrwxrwx 1 root root          10 déc.  13 17:43 which -> /bin/which
+-rwxr-xr-x 1 root root       51416 janv. 18  2018 who
+-rwxr-xr-x 1 root root       30904 janv. 18  2018 whoami
+-rwxr-xr-x 1 root root       56056 nov.   5 00:33 whoopsie
+-rwxr-xr-x 1 root root       18296 avril 23  2016 winicontoppm
+lrwxrwxrwx 1 root root           7 nov.  20  2015 wish -> wish8.6
+-rwxr-xr-x 1 root root       10232 mars  24  2018 wish8.6
+-rwxr-xr-x 1 root root      454376 avril 21  2017 wodim
+-rwxr-xr-x 1 root root       10232 oct.  15 14:12 word-list-compress
+-rwxr-xr-x 1 root root       63488 sept. 17 13:45 wpa_passphrase
+-rwxr-xr-x 1 root root       18504 août   9 17:37 w.procps
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 write -> /etc/alternatives/write
+lrwxrwxrwx 1 root root           4 déc.  13 17:43 X -> Xorg
+lrwxrwxrwx 1 root root           1 déc.  13 17:43 X11 -> .
+-rwxr-xr-x 1 root root      193696 mai   31  2016 x11perf
+-rwxr-xr-x 1 root root        2807 mai   31  2016 x11perfcomp
+lrwxrwxrwx 1 root root           7 août  23 01:47 x86_64 -> setarch
+-rwxr-xr-x 1 root root       31152 mai    8  2019 x86_64-linux-gnu-addr2line
+-rwxr-xr-x 1 root root       59640 mai    8  2019 x86_64-linux-gnu-ar
+-rwxr-xr-x 1 root root      917488 mai    8  2019 x86_64-linux-gnu-as
+-rwxr-xr-x 1 root root       26744 mai    8  2019 x86_64-linux-gnu-c++filt
+lrwxrwxrwx 1 root root           5 déc.  13 17:43 x86_64-linux-gnu-cpp -> cpp-7
+-rwxr-xr-x 1 root root     1010624 mai    8  2019 x86_64-linux-gnu-cpp-7
+-rwxr-xr-x 1 root root     2911496 mai    8  2019 x86_64-linux-gnu-dwp
+-rwxr-xr-x 1 root root       31184 mai    8  2019 x86_64-linux-gnu-elfedit
+lrwxrwxrwx 1 root root           5 mai   20  2019 x86_64-linux-gnu-g++ -> g++-7
+-rwxr-xr-x 1 root root     1010624 mai    8  2019 x86_64-linux-gnu-g++-7
+lrwxrwxrwx 1 root root           5 mai   20  2019 x86_64-linux-gnu-gcc -> gcc-7
+-rwxr-xr-x 1 root root     1010624 mai    8  2019 x86_64-linux-gnu-gcc-7
+lrwxrwxrwx 1 root root           8 mai   20  2019 x86_64-linux-gnu-gcc-ar -> gcc-ar-7
+-rwxr-xr-x 1 root root       27104 mai    8  2019 x86_64-linux-gnu-gcc-ar-7
+lrwxrwxrwx 1 root root           8 mai   20  2019 x86_64-linux-gnu-gcc-nm -> gcc-nm-7
+-rwxr-xr-x 1 root root       27104 mai    8  2019 x86_64-linux-gnu-gcc-nm-7
+lrwxrwxrwx 1 root root          12 mai   20  2019 x86_64-linux-gnu-gcc-ranlib -> gcc-ranlib-7
+-rwxr-xr-x 1 root root       27104 mai    8  2019 x86_64-linux-gnu-gcc-ranlib-7
+lrwxrwxrwx 1 root root           6 mai   20  2019 x86_64-linux-gnu-gcov -> gcov-7
+-rwxr-xr-x 1 root root      622688 mai    8  2019 x86_64-linux-gnu-gcov-7
+lrwxrwxrwx 1 root root          11 mai   20  2019 x86_64-linux-gnu-gcov-dump -> gcov-dump-7
+-rwxr-xr-x 1 root root      491448 mai    8  2019 x86_64-linux-gnu-gcov-dump-7
+lrwxrwxrwx 1 root root          11 mai   20  2019 x86_64-linux-gnu-gcov-tool -> gcov-tool-7
+-rwxr-xr-x 1 root root      516088 mai    8  2019 x86_64-linux-gnu-gcov-tool-7
+lrwxrwxrwx 1 root root          24 déc.  13 17:43 x86_64-linux-gnu-gold -> x86_64-linux-gnu-ld.gold
+-rwxr-xr-x 1 root root      102120 mai    8  2019 x86_64-linux-gnu-gprof
+lrwxrwxrwx 1 root root          23 déc.  13 17:43 x86_64-linux-gnu-ld -> x86_64-linux-gnu-ld.bfd
+-rwxr-xr-x 1 root root     1779400 mai    8  2019 x86_64-linux-gnu-ld.bfd
+-rwxr-xr-x 1 root root     3136552 mai    8  2019 x86_64-linux-gnu-ld.gold
+-rwxr-xr-x 1 root root       44184 mai    8  2019 x86_64-linux-gnu-nm
+-rwxr-xr-x 1 root root      235720 mai    8  2019 x86_64-linux-gnu-objcopy
+-rwxr-xr-x 1 root root      414128 mai    8  2019 x86_64-linux-gnu-objdump
+lrwxrwxrwx 1 root root          34 déc.  14 16:26 x86_64-linux-gnu-pkg-config -> /usr/share/pkg-config-crosswrapper
+lrwxrwxrwx 1 root root          34 nov.   7 11:44 x86_64-linux-gnu-python3.6-config -> x86_64-linux-gnu-python3.6m-config
+-rwxr-xr-x 1 root root        3283 nov.   7 11:44 x86_64-linux-gnu-python3.6m-config
+lrwxrwxrwx 1 root root          33 oct.  25  2018 x86_64-linux-gnu-python3-config -> x86_64-linux-gnu-python3.6-config
+lrwxrwxrwx 1 root root          34 oct.  25  2018 x86_64-linux-gnu-python3m-config -> x86_64-linux-gnu-python3.6m-config
+-rwxr-xr-x 1 root root       59672 mai    8  2019 x86_64-linux-gnu-ranlib
+-rwxr-xr-x 1 root root      596440 mai    8  2019 x86_64-linux-gnu-readelf
+-rwxr-xr-x 1 root root       31024 mai    8  2019 x86_64-linux-gnu-size
+-rwxr-xr-x 1 root root       31232 mai    8  2019 x86_64-linux-gnu-strings
+-rwxr-xr-x 1 root root      235728 mai    8  2019 x86_64-linux-gnu-strip
+-rwxr-xr-x 2 root root       51296 avril 21  2017 x86_64-pc-linux-gnu-pkg-config
+-rwxr-xr-x 1 root root       71896 nov.   5  2017 xargs
+-rwxr-xr-x 1 root root       52032 nov.  21  2017 xauth
+-rwxr-xr-x 1 root root       20360 mai   31  2016 xbiff
+-rwxr-xr-x 1 root root       10104 avril 23  2016 xbmtopbm
+-rwxr-xr-x 1 root root      153936 août  29  2018 xbrlapi
+-rwxr-xr-x 1 root root       35896 mai   31  2016 xcalc
+-rwxr-xr-x 1 root root       18712 mai   31  2016 xclipboard
+-rwxr-xr-x 1 root root       49928 mai   31  2016 xclock
+-rwxr-xr-x 1 root root       35576 avril 21  2017 xcmsdb
+-rwxr-xr-x 1 root root       19352 mai   31  2016 xconsole
+-rwxr-xr-x 1 root root       14328 mai   31  2016 xcursorgen
+-rwxr-xr-x 1 root root       14600 mai   31  2016 xcutsel
+-rwxr-xr-x 1 root root       20571 oct.   2  2018 xdg-desktop-icon
+-rwxr-xr-x 1 root root       43209 oct.   2  2018 xdg-desktop-menu
+-rwxr-xr-x 1 root root       27921 oct.   2  2018 xdg-email
+-rwxr-xr-x 1 root root       29961 oct.   2  2018 xdg-icon-resource
+-rwxr-xr-x 1 root root       41987 oct.   2  2018 xdg-mime
+-rwxr-xr-x 1 root root       25242 oct.   2  2018 xdg-open
+-rwxr-xr-x 1 root root       37673 oct.   2  2018 xdg-screensaver
+-rwxr-xr-x 1 root root       37737 oct.   2  2018 xdg-settings
+-rwxr-xr-x 1 root root         234 mars  23  2018 xdg-user-dir
+-rwxr-xr-x 1 root root       22600 déc.  16  2017 xdg-user-dirs-gtk-update
+-rwxr-xr-x 1 root root       18504 mars  23  2018 xdg-user-dirs-update
+-rwxr-xr-x 1 root root      102232 mai   31  2016 xditview
+-rwxr-xr-x 1 root root       35592 avril 21  2017 xdpyinfo
+-rwxr-xr-x 1 root root       10232 avril 21  2017 xdriinfo
+-rwxr-xr-x 1 root root      676912 mai   31  2016 xedit
+-rwxr-xr-x 1 root root       31208 avril 21  2017 xev
+-rwxr-xr-x 1 root root       23976 mai   31  2016 xeyes
+-rwxr-xr-x 1 root root       36616 avril 21  2017 xfd
+-rwxr-xr-x 1 root root       44648 avril 21  2017 xfontsel
+-rwxr-xr-x 1 root root       10232 avril 21  2017 xgamma
+-rwxr-xr-x 1 root root       75896 mai   31  2016 xgc
+-rwxr-xr-x 1 root root      266896 févr. 21  2019 xgettext
+-rwxr-xr-x 1 root root       14328 avril 21  2017 xhost
+-rwxr-xr-x 1 root root       14200 avril 23  2016 ximtoppm
+-rwxr-xr-x 1 root root       18608 janv. 31  2018 xinit
+-rwxr-xr-x 1 root root       51888 avril 21  2017 xinput
+-rwxr-xr-x 1 root root       14344 mai   16  2018 xkbbell
+-rwxr-xr-x 1 root root      212704 mai   16  2018 xkbcomp
+-rwxr-xr-x 1 root root       34896 mai   16  2018 xkbevd
+-rwxr-xr-x 1 root root       88096 mai   16  2018 xkbprint
+-rwxr-xr-x 1 root root       23320 mai   16  2018 xkbvleds
+-rwxr-xr-x 1 root root       19320 mai   16  2018 xkbwatch
+-rwxr-xr-x 1 root root       16982 avril 21  2017 xkeystone
+-rwxr-xr-x 1 root root       14328 avril 21  2017 xkill
+-rwxr-xr-x 1 root root       14968 mai   31  2016 xload
+-rwxr-xr-x 1 root root       19336 mai   31  2016 xlogo
+-rwxr-xr-x 1 root root       10232 avril 21  2017 xlsatoms
+-rwxr-xr-x 1 root root       14336 avril 21  2017 xlsclients
+-rwxr-xr-x 1 root root       18528 avril 21  2017 xlsfonts
+-rwxr-xr-x 1 root root       41000 mai   31  2016 xmag
+-rwxr-xr-x 1 root root       70552 mai   31  2016 xman
+-rwxr-xr-x 1 root root       23432 avril 21  2017 xmessage
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 xmlpatterns -> qtchooser
+lrwxrwxrwx 1 root root           9 déc.  13 17:43 xmlpatternsvalidator -> qtchooser
+-rwxr-xr-x 1 root root       35160 avril 21  2017 xmodmap
+-rwxr-xr-x 1 root root       10440 mai   31  2016 xmore
+-rwxr-xr-x 1 root root         274 mai    2  2019 Xorg
+-rwxr-xr-x 1 root root       18352 avril 23  2016 xpmtoppm
+-rwxr-xr-x 1 root root       41256 avril 21  2017 xprop
+-rwxr-xr-x 1 root root       14328 févr. 25  2018 xqxdecode
+-rwxr-xr-x 1 root root       63576 avril 21  2017 xrandr
+-rwxr-xr-x 1 root root       26712 avril 21  2017 xrdb
+-rwxr-xr-x 1 root root       10312 avril 21  2017 xrefresh
+lrwxrwxrwx 1 root root          35 déc.  13 17:43 x-session-manager -> /etc/alternatives/x-session-manager
+-rwxr-xr-x 1 root root       30712 avril 21  2017 xset
+-rwxr-xr-x 1 root root       10232 avril 21  2017 xsetmode
+-rwxr-xr-x 1 root root       10232 avril 21  2017 xsetpointer
+-rwxr-xr-x 1 root root       18432 avril 21  2017 xsetroot
+-rwxr-xr-x 1 root root       56872 nov.  27  2018 xsetwacom
+-rwxr-xr-x 1 root root       96720 avril 21  2017 xsm
+-rwxr-xr-x 1 root root       14920 avril 21  2017 xstdcmap
+-rwxr-xr-x 1 root root        5164 nov.  19  2018 xsubpp
+-rwxr-xr-x 1 root root      680248 déc.  14  2017 xterm
+lrwxrwxrwx 1 root root          37 déc.  13 17:43 x-terminal-emulator -> /etc/alternatives/x-terminal-emulator
+-rwxr-xr-x 1 root root       40360 avril 21  2017 xvidtune
+-rwxr-xr-x 1 root root       14328 avril 21  2017 xvinfo
+-rwxr-xr-x 1 root root       10104 avril 23  2016 xvminitoppm
+-rwxr-xr-x 1 root root       30728 mai   31  2016 xwd
+-rwxr-xr-x 1 root root       18296 avril 23  2016 xwdtopnm
+lrwxrwxrwx 1 root root          34 déc.  13 17:43 x-window-manager -> /etc/alternatives/x-window-manager
+-rwxr-xr-x 1 root root       47184 avril 21  2017 xwininfo
+-rwxr-xr-x 1 root root       26616 mai   31  2016 xwud
+lrwxrwxrwx 1 root root          31 déc.  13 17:43 x-www-browser -> /etc/alternatives/x-www-browser
+-rwxr-xr-x 1 root root       18552 juin   6  2019 xxd
+-rwxr-xr-x 1 root root       76216 juin  28  2017 xz
+lrwxrwxrwx 1 root root           2 déc.  13 17:43 xzcat -> xz
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 xzcmp -> xzdiff
+-rwxr-xr-x 1 root root        6632 juin  28  2017 xzdiff
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 xzegrep -> xzgrep
+lrwxrwxrwx 1 root root           6 déc.  13 17:43 xzfgrep -> xzgrep
+-rwxr-xr-x 1 root root        5628 juin  28  2017 xzgrep
+-rwxr-xr-x 1 root root        1802 juin  28  2017 xzless
+-rwxr-xr-x 1 root root        2161 juin  28  2017 xzmore
+-rwxr-xr-x 1 root root       18488 avril  3  2018 xzoom
+-rwxr-xr-x 1 root root       10104 avril 23  2016 ybmtopbm
+-rwxr-xr-x 1 root root       55368 avril 13  2018 yelp
+-rwxr-xr-x 1 root root       30904 janv. 18  2018 yes
+-rwxr-xr-x 1 root root       10104 avril 23  2016 yuvsplittoppm
+-rwxr-xr-x 1 root root       10104 avril 23  2016 yuvtoppm
+-rwxr-xr-x 1 root root       18488 avril 16  2018 zdump
+-rwxr-xr-x 1 root root       10104 avril 23  2016 zeisstopnm
+-rwxr-xr-x 1 root root      119384 avril 10  2018 zenity
+-rwxr-xr-x 1 root root      216256 avril 21  2017 zip
+-rwxr-xr-x 1 root root       93816 avril 21  2017 zipcloak
+-rwxr-xr-x 1 root root       48497 nov.  19  2018 zipdetails
+-rwxr-xr-x 1 root root        2953 avril 28  2017 zipgrep
+-rwxr-xr-x 1 root root      174216 avril 28  2017 zipinfo
+-rwxr-xr-x 1 root root       89488 avril 21  2017 zipnote
+-rwxr-xr-x 1 root root       93584 avril 21  2017 zipsplit
+-rwxr-xr-x 1 root root       26624 févr. 25  2018 zjsdecode
+-rwxr-xr-x 1 root root       10336 avril 15  2018 zlib-flate
+lrwxrwxrwx 1 root root           8 déc.  14 16:59 zsh -> /bin/zsh
