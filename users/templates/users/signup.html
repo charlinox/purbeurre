@@ -1,0 +1,11 @@
+<h1>S'inscrire</h1>
+
+{% if user.is_authenticated %}
+Vous êtes déja inscrit en tant que {{ user.username }} !
+{% else %}
+<form method="post" action=".">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="S'inscrire" />
+</form>
+{% endif %}
