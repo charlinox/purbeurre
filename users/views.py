@@ -28,24 +28,6 @@ def deconnexion(request):
     logout(request)
     return redirect(reverse(connexion))    
 
-# def signup(request):
-#     error = False
-
-#     if request.method == "POST":
-#         form = ConnexionForm(request.POST)
-#         if form.is_valid():
-#             username = form.cleaned_data["username"]
-#             password = form.cleaned_data["password"]
-#             user = authenticate(username=username, password=password)
-#             if user:
-#                 login(request, user)
-#             else:
-#                 error = True
-#     else:
-#         form = ConnexionForm()
-
-#     return render(request, 'users/connexion.html', locals())
-
 
 def signup(request):
 
@@ -56,13 +38,7 @@ def signup(request):
         if request.method == 'POST':
             form = UserCreationForm(request.POST)
             if form.is_valid():
-                form.save()
-                first_name = form.cleaned_data.get('username')
-                last_name = form.cleaned_data.get('usersurname')
-                aka = form.cleaned_data.get('useraka')
-                user_email = form.cleaned_data.get('useremail')
-                user_password = form.cleaned_data.get('userpassword')
-                user = authenticate(username=username, password=raw_password)
+                user = form.save()
                 login(request, user)
                 return redirect('dashboard')
 
