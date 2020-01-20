@@ -1,9 +1,15 @@
 from django.db import models
 
+from bddinit.management.commands.bdinit import ProductManager
+
+
 class Product(models.Model):
     name = models.CharField(max_length=140)
     nutrition_grade = models.CharField(max_length=1)
     url = models.CharField(max_length=255)
+    image_url = models.URLField(max_length=255)
+    image_nutrition_url = models.URLField(max_length=255)
+    objects = ProductManager()
     categories = models.ManyToManyField("Category", related_name="products")
 
     def __str__(self):
