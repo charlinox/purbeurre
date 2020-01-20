@@ -1,9 +1,10 @@
 from django.db import models
 
-from bddinit.management.commands.bdinit import ProductManager
+from .managers import ProductManager
 
 
 class Product(models.Model):
+    id = models.BigIntegerField(primary_key=True)
     name = models.CharField(max_length=140)
     nutrition_grade = models.CharField(max_length=1)
     url = models.CharField(max_length=255)
