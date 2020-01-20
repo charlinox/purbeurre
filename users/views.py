@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth import views as auth_views
 from django.urls import reverse
 
 from .forms import ConnexionForm
@@ -25,13 +24,10 @@ from .forms import ConnexionForm
 
 #     return render(request, 'users/connexion.html', locals())
 
-url('user_connexion', auth_views.login, {'template_name': 'users/connexion.html'})
 
 # def user_logout(request):
 #     logout(request)
 #     return redirect(reverse(connexion))
-
-url('user_logout', auth_views.login, {'template_name': reverse(user_connexion)})
 
 
 def user_signup(request):
