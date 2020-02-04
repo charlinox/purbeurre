@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login, logout
+# from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.forms import UserCreationForm
 from django.urls import reverse
 
@@ -30,7 +30,7 @@ from .forms import ConnexionForm
 #     return redirect(reverse(connexion))
 
 
-def user_signup(request):
+def signup(request):
 
     if request.user.is_authenticated():
          return redirect('dashboard')         

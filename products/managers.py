@@ -25,23 +25,22 @@ class ProductManager(models.Manager):
             and image_nutrition_url.strip()
             # and ou or ?? on avait mis "or" pour le P5
             ):
-            raise TypeError("product_name, nutrition_grades, url, image_url"
+            raise TypeError("product_name, nutrition_grade_fr, url, image_url"
                             "and image_nutrition_url must be non-blank fields")
         if len(str(code)) > 19:
             raise TypeError("product.id is too big")
 
         product = self.get_or_create(
+            id=code.strip(),
             name=product_name.lower().strip(),
             nutrition_grade=nutrition_grade_fr.lower().strip(),
             url=url.lower().strip(),
             image_url=image_url.lower().strip(),
-            image_nutrition_url=image_nutrition_url.lower().strip(),
-            id=code
+            image_nutrition_url=image_nutrition_url.lower().strip()
         )
 
         for category in categories.split(','):
             category = Category.objects.get_or_create(
-                # Est il vraiment necessaire d'instancier dans ce cas là ?
                 name=category.lower().strip()
             )
             product.categories.add(category)
