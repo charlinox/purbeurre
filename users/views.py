@@ -32,8 +32,8 @@ from .forms import ConnexionForm
 
 def signup(request):
 
-    if request.user.is_authenticated():
-         return redirect('dashboard')         
+    if request.user.is_authenticated:
+         return redirect('products/index')         
     else:
 
         if request.method == 'POST':
@@ -41,7 +41,7 @@ def signup(request):
             if form.is_valid():
                 user = form.save()
                 login(request, user)
-                return redirect('dashboard')
+                return redirect('products/index')
 
         else:
             form = UserCreationForm()

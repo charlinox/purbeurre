@@ -23,7 +23,6 @@ class ProductManager(models.Manager):
             and url.strip()
             and image_url.strip()
             and image_nutrition_url.strip()
-            # and ou or ?? on avait mis "or" pour le P5
             ):
             raise TypeError("product_name, nutrition_grade_fr, url, image_url"
                             "and image_nutrition_url must be non-blank fields")
