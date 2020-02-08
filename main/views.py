@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+from ../products/forms import SearchForm
+
+
+def index(request):
+    """Display the site index."""
+    return render(request, "main/index.html", {"form": SearchForm()})

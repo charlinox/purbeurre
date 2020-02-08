@@ -19,13 +19,13 @@ CATEGORY_LIST = [
 class ProductDownloader:
     """ Download products from OFF API """
 
-    def fetch(self, categories, number=20):
+    def fetch(self, categorie, number=20):
         """ Fetch products from OFF API """
         payload = {
             "action": "process",
             "tagtype_0": "categories",
             "tag_contains_0": "contains",
-            "tag_0": categories,
+            "tag_0": categorie,
             "page_size": number,
             "json": 1,
         }

@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "favorites.apps.FavoritesConfig",
     "bddinit",
     "products.apps.ProductsConfig",
+    "main.apps.ProductsConfig",
 ]
 
 MIDDLEWARE = [

@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 # from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.forms import UserCreationForm
-from django.urls import reverse
+# from django.urls import reverse
 
 from .forms import ConnexionForm
 
@@ -33,7 +33,7 @@ from .forms import ConnexionForm
 def signup(request):
 
     if request.user.is_authenticated:
-         return redirect('products/index')         
+         return redirect('main/index')         
     else:
 
         if request.method == 'POST':
@@ -41,7 +41,7 @@ def signup(request):
             if form.is_valid():
                 user = form.save()
                 login(request, user)
-                return redirect('products/index')
+                return redirect('main/index')
 
         else:
             form = UserCreationForm()
