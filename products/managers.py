@@ -29,7 +29,7 @@ class ProductManager(models.Manager):
         if len(str(code)) > 19:
             raise TypeError("product.id is too big")
 
-        product = self.get_or_create(
+        product, created = self.get_or_create(
             id=code.strip(),
             name=product_name.lower().strip(),
             nutrition_grade=nutrition_grade_fr.lower().strip(),
@@ -39,7 +39,7 @@ class ProductManager(models.Manager):
         )
 
         for category in categories.split(','):
-            category = Category.objects.get_or_create(
+            category, created = Category.objects.get_or_create(
                 name=category.lower().strip()
             )
             product.categories.add(category)

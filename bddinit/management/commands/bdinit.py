@@ -38,7 +38,7 @@ class ProductDownloader:
 
 class Command(BaseCommand):
 
-    def handle(self):
+    def handle(self, *args, **options):
         downloader = ProductDownloader()
         for each_category in CATEGORY_LIST:
             products = downloader.fetch(each_category, 500)

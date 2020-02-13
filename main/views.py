@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from ../products/forms import SearchForm
+from products.forms import SearchForm
 
 
 def index(request):
