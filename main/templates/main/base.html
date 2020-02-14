@@ -29,14 +29,14 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg fixed-top py-3" id="mainNav">
     <div class="container-fluid">
-        <a class="navbar-brand js-scroll-trigger" href="{% url 'main:index' %}"><img class="img-fluid" src="{% static 'main/img/big_logo.png' %}" alt="logo_purbeurre"> Pur Beurre</a>
+        <a class="navbar-brand js-scroll-trigger" href="{% url 'index' %}"><img class="img-fluid" src="{% static 'main/img/big_logo.png' %}" alt="logo_purbeurre"> Pur Beurre</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
                 <li class="nav-item mr-5">
-                    <form action="{% url 'products:result' %}" method="post">
+                    <form action="{% url 'result' %}" method="post">
                         {% csrf_token %}
                         <input class="form-control" type="search" name="research" placeholder="Rechercher" id="fiel-search-nav-bar">
                         <input type="submit" class="d-none">
@@ -44,17 +44,17 @@
                 </li>
                 {% if user.is_authenticated %}
                 <li class="nav-item">
-                    <a href="{% url 'users:account' %}"><i class="fas fa-user fa-2x link-style color-cyan"></i></a>
+                    <a href="{% url 'users:signup' %}"><i class="fas fa-user fa-2x link-style color-cyan"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{% url 'search:my_food' %}"><img src="{% static 'search/img/noun_Carrot_29691.png' %}" alt=""></a>
+                    <a class="nav-link js-scroll-trigger" href="{% url 'my_food' %}"><img src="{% static 'main/img/noun_Carrot_29691.png' %}" alt=""></a>
                 </li>
                 <li class="nav-item">
-                    <a href="{% url 'users:sign_out' %}"><i class="fas fa-sign-out-alt fa-2x link-style color-cyan"></i></a>
+                    <a href="{% url 'users:logout' %}"><i class="fas fa-sign-out-alt fa-2x link-style color-cyan"></i></a>
                 </li>
                 {% else %}
                 <li class="nav-item">
-                    <a href="{% url 'users:user_login' %}"><i class="fas fa-sign-in-alt fa-2x link-style color-cyan"></i></a>
+                    <a href="{% url 'users:login' %}"><i class="fas fa-sign-in-alt fa-2x link-style color-cyan"></i></a>
                 </li>
                 {% endif %}
             </ul>
@@ -68,7 +68,7 @@
   <footer class="bg-light py-5">
     <div class="container">
         <div class="d-flex justify-content-between">
-            <a class="text-muted" href="{% url 'main:legal_mention' %}">Mentions légales</a>
+            <a class="text-muted" href="{% url 'legal_mention' %}">Mentions légales</a>
             <a class="text-muted" href="#contact">Contact</a>
         </div>
     </div>

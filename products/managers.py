@@ -18,7 +18,8 @@ class ProductManager(models.Manager):
         from products.models import Category
          
         if not (
-            product_name.strip()
+            code
+            and product_name.strip()
             and nutrition_grade_fr.strip()
             and url.strip()
             and image_url.strip()
@@ -27,7 +28,7 @@ class ProductManager(models.Manager):
             raise TypeError("product_name, nutrition_grade_fr, url, image_url"
                             "and image_nutrition_url must be non-blank fields")
         if len(str(code)) > 19:
-            raise TypeError("product.id is too big")
+            raise TypeError("product.id (code) is too big")
 
         product, created = self.get_or_create(
             id=code.strip(),

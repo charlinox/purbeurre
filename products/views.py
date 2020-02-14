@@ -4,10 +4,11 @@ from django.views import generic
 
 from .forms import SearchForm
 from .models import Product
+from .substitute import substitute
 
 
 def result(request):
-    """Display the site index."""
+    """Display the product substitutes"""
 
     context = {}
 
@@ -30,10 +31,10 @@ def result(request):
         else:
             context['errors'] = form.errors.items()
 
-        return render(request, 'search/result.html', context=context)
+        return render(request, 'products/result.html', context=context)
     
     else:
-        return render(request, 'search/no_search.html', context=context)
+        return render(request, 'products/no_search.html', context=context)
 
 
 class DetailView(generic.DetailView):

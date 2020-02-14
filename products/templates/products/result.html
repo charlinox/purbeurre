@@ -1,0 +1,90 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+{% load static %}
+
+<style type="text/css">
+    #mainNav{background-color: #345A61;}
+</style>
+
+<header class="delimit-display degrad">
+
+    <div class="container-fluid h-100">
+
+        <!-- banner -->
+        <div class="row text-center align-items-center" id="img-food">
+            <div class="col-12">
+                <h1 class="title-search"><strong>{{ food.name }}</strong></h1>
+
+                {% if food.image_url %}
+                    <style type="text/css">
+                        #img-food{background-image: url({{ food.image_url }}); background-position: center; background-repeat: repeat-x;}
+                    </style>
+
+                {% else %}
+                    <h1 class="d-none"></h1>
+
+                {% endif %}
+
+            </div><!-- end .col-12 -->
+        </div><!-- end .row -->
+
+        <!-- content -->
+        <div class="row justify-content-center">
+            {% if list_food|length >= 7 %}
+                <style type="text/css">
+                    .delimit-display{padding-top: 120px;}
+                </style>
+            
+            {% else %}
+                <style type="text/css">
+                    .delimit-display{height: 100vh; padding-top: 120px;}
+                </style>
+            {% endif %}
+
+            {% if match %}
+            {% for food in list_food %}
+                <div class="col-12 col-lg-4 my-5">
+                    <div class="card border-primary size-card mx-auto">
+                        <div class="d-flex align-items-center justify-content-center nut-group">
+                                <div class="color-darkblue h2"><strong>{{ food.nutrition_grade|upper }}</strong></div>
+                        </div>
+                        <a href="{% url 'food_detail' food.id %}">
+                            <img src="{{ food.image_url }}" alt="image" class="card-img-top size-img">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">{{ food.name }}</h4>
+                            <a href="#" class="btn btn-color-personal btn-save-food"><p class="d-none">{{ food.id }}</p><i class="fas fa-save"></i> Sauvegarder</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            {% else %}
+                <div class="col-12">
+                    <h3 class="d-none" id="match">{{ match }}</h3>
+                </div>
+            {% endif %}
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="modalBox">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titleBox"></h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div><!-- end .modal-header -->
+                        <div class="modal-body">
+                            <p class="lead" id="bodyBox"></p>
+                        </div><!-- end .modal-body -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" id="btnClose">Fermer</button>
+                            <a href="{% url 'index' %}" class="btn btn-secondary d-none" id="btnRedirect">Fermer</a>
+                        </div><!-- end .modal-footer -->
+                    </div><!-- end .modal-content -->
+                </div><!-- end .modal-dialog -->
+            </div><!-- end .modal -->
+        </div><!-- end .row justify-content-center -->
+    </div><!-- end .container-fluid h-100 -->
+</header>
+{% endblock content %}

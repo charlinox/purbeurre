@@ -1,4 +1,4 @@
-{% extends 'purbeurre/base.html' %}
+{% extends 'main/base.html' %}
 
 {% block content %}
 {% load static %}
@@ -15,7 +15,7 @@
         {% if user.authenticated %}
         <h2>{{user.username}}</h2>
         {% endif %}
-        <form action="{% url 'search:result' %}" method="post" class="form-inline">
+        <form action="{% url 'result' %}" method="post" class="form-inline">
           {% csrf_token %}
           <div class="input-group mx-auto">
             {{ form.research }}
@@ -44,7 +44,7 @@
              supermarché. Mais petit à petit je me suis rendue compte, surtout lorsque nous avons 
              ouvert le restaurant, que je pouvais remplacer les produits aseptisés que j'avais 
              l'habitude d'acheter par de bons produits du terroir Et souvent pour le même prix !"</p>
-            <img class="img-fluid" src="{% static 'search/img/colette-tatou-full.png' %}" alt="colette">
+            <img class="img-fluid" src="{% static 'main/img/colette-tatou-full.png' %}" alt="colette">
           </div>
           <div class="col-12 col-lg-6">
               <p class="text-white-50 mb-4"><strong>Remy</strong> : "Pour ma part je me rendais déjà 
@@ -53,7 +53,7 @@
               ainsi que les ingrédients de tous les aliments vendus. Lorsque Colette m'a demandé 
               si elle pouvait remplacer son Nutella matinal par un aliment plus sain,
               je savais tout de suite où le trouver. L'idée de Pur Beurre était née !"</p>
-              <img class="img-fluid" src="{% static 'search/img/remy.png' %}" alt="remy">
+              <img class="img-fluid" src="{% static 'main/img/remy.png' %}" alt="remy">
           </div>
         </dvi>
       </div>
