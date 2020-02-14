@@ -1,0 +1,117 @@
+body
+{
+    font-family: "Scope One", sans-serif;
+}
+
+h1, h2, h3, h4
+{
+    font-family: "Open Sans", sans-serif;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+#fiel-search-nav-bar
+{
+    background-color: rgba(212, 212, 212, 0.733);
+    border: 1px solid rgba(212, 212, 212, 0.733);
+}
+
+.height-display
+{
+    height: 100vh;
+    padding-top: 120px;
+}
+
+.degrad
+{
+    background-image: radial-gradient(circle at center, rgba(232, 167, 93, 0.7), rgba(196, 85, 37, 0.9));
+}
+
+#img-food
+{
+    height: 15vh;
+}
+
+.nut-group
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    background-color: #DE9440;
+    border: 2px solid #C45525;
+    border-radius: 30px;
+}
+
+div.h2
+{
+    margin: 0;
+}
+
+.title-search
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 8px;
+    color: whitesmoke;
+    background-color: rgb(232, 167, 93);
+    border: 1px solid rgb(232, 167, 93);
+    border-radius: 10px;
+}
+
+.color-darkblue
+{
+    color: #345A61;
+}
+
+.size-card
+{
+    width: 25rem;
+}
+
+.size-img
+{
+    height: 25rem;
+}
+
+.link-color
+{
+    color: #0275d8;
+}
+
+.bg-legacy
+{
+    background-color: rgba(191, 191, 191, 0.5);
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}

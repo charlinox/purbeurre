@@ -44,17 +44,17 @@
                 </li>
                 {% if user.is_authenticated %}
                 <li class="nav-item">
-                    <a href="{% url 'users:signup' %}"><i class="fas fa-user fa-2x link-style color-cyan"></i></a>
+                    <a href="{% url 'signup' %}"><i class="fas fa-user fa-2x link-style color-cyan"></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="{% url 'my_food' %}"><img src="{% static 'main/img/noun_Carrot_29691.png' %}" alt=""></a>
                 </li>
                 <li class="nav-item">
-                    <a href="{% url 'users:logout' %}"><i class="fas fa-sign-out-alt fa-2x link-style color-cyan"></i></a>
+                    <a href="{% url 'logout' %}"><i class="fas fa-sign-out-alt fa-2x link-style color-cyan"></i></a>
                 </li>
                 {% else %}
                 <li class="nav-item">
-                    <a href="{% url 'users:login' %}"><i class="fas fa-sign-in-alt fa-2x link-style color-cyan"></i></a>
+                    <a href="{% url 'login' %}"><i class="fas fa-sign-in-alt fa-2x link-style color-cyan"></i></a>
                 </li>
                 {% endif %}
             </ul>
