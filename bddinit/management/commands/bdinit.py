@@ -11,9 +11,13 @@ CATEGORY_LIST = [
     "Conserves",
     "Plats préparés",
     "Fruits",
+    "desserts",
+    "poissons",
     "Légumes et dérivés",
     "Céréales et dérivés",
-    "Produits laitiers"
+    "Produits laitiers",
+    "viandes",
+    "boissons"
     ]
 
 class ProductDownloader:

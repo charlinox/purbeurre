@@ -50,7 +50,7 @@
                                 <div class="color-darkblue h2"><strong>{{ food.nutrition_grade|upper }}</strong></div>
                         </div>
                         <a href="{% url 'food_detail' food.id %}">
-                            <img src="{{ food.image_url }}" alt="image" class="card-img-top size-img">
+                            <img src="{{ food.image_url }}" alt="food.picture_product" class="card-img-top size-img">
                         </a>
                         <div class="card-body">
                             <h4 class="card-title text-center">{{ food.name }}</h4>

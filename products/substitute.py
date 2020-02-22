@@ -12,6 +12,6 @@ def substitute(food_search):
     ~Q(id=food_search.id),
     Q(categories__id__in=Subquery(food_search.categories.all().values('id'))),
     Q(nutrition_grade__lt=food_search.nutrition_grade)
-    ).values("id", "name", "nutrition_grade", "url").annotate(count=Count('id')).order_by("-count")
+    ).values("id", "name", "nutrition_grade", "url", "image_url").annotate(count=Count('id')).order_by("-count")
 
     return food_substitute
