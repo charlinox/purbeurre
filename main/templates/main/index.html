@@ -15,8 +15,7 @@
         {% if user.authenticated %}
         <h2>{{user.username}}</h2>
         {% endif %}
-        <form action="{% url 'result' %}" method="post" class="form-inline">
-          {% csrf_token %}
+        <form action="{% url 'result' %}" method="get" class="form-inline">
           <div class="input-group mx-auto">
             {{ form.research }}
             <div class="input-group-append">

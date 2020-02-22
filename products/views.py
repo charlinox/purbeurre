@@ -12,29 +12,25 @@ def result(request):
 
     context = {}
 
-    if request.method == 'POST':
+    form = SearchForm(request.GET)
+    if form.is_valid():
+        food_search = form.cleaned_data['research']
+        food = Product.objects.filter(name__contains=food_search)
 
-        form = SearchForm(request.POST)
-        if form.is_valid():
-            food_search = form.cleaned_data['research']
-            food = Product.objects.filter(name__contains=food_search)
-
-            if food.exists():
-                sub = substitute(food[0])
-                context['match'] = True
-                context['food'] = food[0]
-                context['list_food'] = sub
+        if food.exists():
             
-            else:
-                context['match'] = False
+            sub = substitute(food[0])
+            context['match'] = True
+            context['food'] = food[0]
+            context['list_food'] = sub
         
         else:
-            context['errors'] = form.errors.items()
-
-        return render(request, 'products/result.html', context=context)
-    
+            context['match'] = False
+            return render(request, 'products/no_search.html', context=context)
     else:
-        return render(request, 'products/no_search.html', context=context)
+        context['errors'] = form.errors.items()
+
+    return render(request, 'products/result.html', context=context)
 
 
 class DetailView(generic.DetailView):

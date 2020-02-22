@@ -58,6 +58,14 @@
                         </div>
                     </div>
                 </div>
+            {% empty %}
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-12">
+                        <h1 class="text-white">Aucun produit n'a été trouver pour votre recherche !</h1>
+                    </div>
+                </div>
+        </div>
+
             {% endfor %}
             {% else %}
                 <div class="col-12">
