@@ -1,5 +1,6 @@
 {% extends 'main/base.html' %}
 {% block content %}
+{% load static %}
 
 <style type="text/css">
     #mainNav{background-color: #345A61;}
@@ -30,17 +31,11 @@
         <!-- content -->
         <div class="row text-center">
             <div class="col-12 col-lg-6 my-5">
-                <img class="img-fluid" src="{{ product.image_nutrition_url }}" alt="nutriscore">
+                <img class="img-fluid" src="{% static 'main/img/nutA.png' %}" alt="nutriscore">
             </div>
             <div class="col-12 col-lg-6 my-5 d-flex justify-content-center">
                 <p class="title-search">Repères nutritionnels pour 100 g</p>
                 <img class="img-fluid" src="{{ product.image_nutrition_url }}" alt="nutriscore">
-
-                        <th></th>
-                    {% endfor %}
-                    {% endwith %}
-                </table>
-                
             </div>
         </div>
         <div class="row text-center">
