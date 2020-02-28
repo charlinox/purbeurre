@@ -16,6 +16,10 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
+    def get_img(self):
+        return f'/static/main/img/nut{self.nutrition_grade.upper()}.png'
+
+
 class Category(models.Model):
     name = models.CharField(max_length=140)
     

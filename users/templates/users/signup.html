@@ -1,11 +1,71 @@
-<h1>S'inscrire</h1>
+{% extends 'main/base.html' %}
 
-{% if user.is_authenticated %}
-Vous êtes déja inscrit en tant que {{ user.username }} !
-{% else %}
-<form method="post" action=".">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="S'inscrire" />
-</form>
-{% endif %}
+{% block content %}
+    <header class="masthead">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-center">
+                    <h1 class="text-white">Inscrivez-vous pour pouvoir enregistrer vos recherche et retrouver vos aliments favoris.</h1>
+                </div>
+
+                <div class="col-lg-8 align-self-baseline">
+                    <div class="card" id="field-login">
+                        <div class="card-body">
+                            {% if errors %}
+                            <div>
+                                {% for key, error in errors %}
+                                {% autoescape off %}
+                                    {{ error }}
+                                {% endautoescape %}
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+
+                            {% if new_user.is_active %}
+                            <h3 class="text-white">Compte créé avec succès</h3>
+                            {% else %}
+
+                            <form action="{% url 'signup' %}", method='post'>
+                            {% csrf_token %}
+                                <div class="input-group form-group">
+                                    <!-- icon -->
+                                    <div class="input-group-prepend fav-icon-bg">
+                                        <span class="input-group-text fav-icon-bg"><i class="fas fa-user"></i></span>
+                                    </div><!-- end div icon -->
+                                    {{ form.username }}
+                                    {% comment %} <input type="text" class="form-control" placeholder="Nom"> {% endcomment %}
+                                </div><!-- end .input-group form-group -->
+                                <div class="input-group form-group">
+                                    <!-- icon -->
+                                    <div class="input-group-prepend fav-icon-bg">
+                                        <span class="input-group-text fav-icon-bg"><i class="fas fa-key"></i></span>
+                                    </div><!-- end div icon -->
+                                    {{ form.password1 }}
+                                    {% comment %} <input type="password" class="form-control" placeholder="Mot de passe"> {% endcomment %}
+                                </div><!-- end .input-group form-group -->
+                                <div class="input-group form-group">
+                                    <!-- icon -->
+                                    <div class="input-group-prepend fav-icon-bg">
+                                        <span class="input-group-text fav-icon-bg"><i class="fas fa-key"></i></span>
+                                    </div><!-- end div icon -->
+                                    {{ form.password2 }}
+                                    {% comment %} <input type="password" class="form-control" placeholder="Mot de passe"> {% endcomment %}
+                                </div><!-- end .input-group form-group -->
+                                <div class="form-group">
+                                    <input type="submit" value="Inscription" class="btn btn-color-personal float-right">
+                                </div>
+                            </form><!-- end form -->
+                            {% endif %}
+                        </div><!-- end .card-body -->
+                        <div class="card-footer">
+                            <div class="d-flex justify-content-center text-white">
+                                Vous avez déjà un compte? <a class="color-cyan link-style" href="{% url 'login' %}"> Connectez-vous</a>
+                            </div>
+                        </div>
+                    </div><!-- end .card -->
+                </div><!-- end .col-lg-8 align-self-baseline -->
+
+            </div><!-- end .row h-100 align-items-center... -->
+        </div><!-- end .container h-100 -->
+    </header>
+{% endblock content %}
