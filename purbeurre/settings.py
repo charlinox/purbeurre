@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "bddinit",
     "products.apps.ProductsConfig",
     "main.apps.MainConfig",
+    # "coverage"
 ]
 
 MIDDLEWARE = [

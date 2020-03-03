@@ -9,4 +9,4 @@ class Favorite(models.Model):
     # PRIMARY KEY (substitut_id, original_id)
 
     def __str__(self):
-        return self.titre
+        return self.user

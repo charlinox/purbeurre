@@ -37,13 +37,13 @@
                 <div class="col-12 col-lg-4 my-5">
                     <div class="card border-primary size-card mx-auto">
                         <div class="d-flex align-items-center justify-content-center nut-group">
-                                <div class="color-darkblue h2"><strong>{{ food.substitute.nutrition_group|upper }}</strong></div>
+                                <div class="color-darkblue h2"><strong>{{ food.substitut.nutrition_grade|upper }}</strong></div>
                         </div>
-                        <a href="{% url 'search:food_detail' food.substitute.id %}">
-                            <img src="{{ food.substitute.image }}" alt="image" class="card-img-top size-img">
+                        <a href="{% url 'products:food_detail' food.substitut.id %}">
+                            <img src="{{ food.substitut.image }}" alt="image" class="card-img-top size-img">
                         </a>
                         <div class="card-body">
-                            <h4 class="card-title text-center">{{ food.substitute.name }}</h4>
+                            <h4 class="card-title text-center">{{ food.substitut.name }}</h4>
                         </div>
                     </div>
                 </div>
