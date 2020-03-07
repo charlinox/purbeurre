@@ -8,4 +8,4 @@ def index(request):
     return render(request, "main/index.html", {"form": SearchForm()})
 
 def legalmention(request):
-    return render(request, 'main/legal_mention.html')
+    return render(request, 'main/mention_legale.html')

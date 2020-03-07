@@ -7,9 +7,9 @@ from products.models import Product
 
 @login_required
 def save_food(request):
-    if request.method=="POST"
-        food_id = request.POST["food_id"]
-        substitute_id = request.POST["substitute_id"]
+    if request.method=="POST":
+        food_id = int(request.POST["food_id"])
+        substitute_id = int(request.POST["substitute_id"])
         req = request.POST['idFood']
         fav = Favoris()
         fav.user = request.user
