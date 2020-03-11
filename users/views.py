@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
+from django.urls import reverse
 from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
-# from django.urls import reverse
 
 from .forms import ConnexionForm
 
@@ -21,3 +21,14 @@ def signup(request):
         else:
             form = UserCreationForm()
         return render(request, 'users/signup.html', {'form': form}) 
+
+def account(request):
+    context = {}
+
+    if request.user.is_authenticated:
+        context['pseudo'] = request.username
+
+    else:
+        return redirect(reverse('users:login'))
+
+    return render(request, 'users/account.html', context=context)

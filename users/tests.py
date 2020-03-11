@@ -1,7 +1,7 @@
 from django.test import TestCase, Client
 
 
-class SatusCodePageTestCase(TestCase):
+class StatusCodePageTestCase(TestCase):
     def setUp(self):
         self.cli = Client()
 

@@ -19,7 +19,7 @@ def result(request):
 
         if food.exists():
             
-            sub = substitute(food[0])[:8]
+            sub = substitute(food[0])[:9]
             context['match'] = True
             context['food'] = food[0]
             context['list_food'] = sub

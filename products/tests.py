@@ -3,7 +3,7 @@ from .models import Category, Product
 from .views import result, DetailView
 
 
-class SatusCodePageTestCase(TestCase):
+class StatusCodePageTestCase(TestCase):
     def setUp(self):
         self.cli = Client()
         cat = Category()

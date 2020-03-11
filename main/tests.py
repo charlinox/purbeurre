@@ -2,7 +2,7 @@ from django.test import TestCase, Client
 from .models import Category, Product
 
 
-class SatusCodePageTestCase(TestCase):
+class StatusCodePageTestCase(TestCase):
     def setUp(self):
         self.cli = Client()
 

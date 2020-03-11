@@ -31,17 +31,10 @@
 
         <!-- content -->
         <div class="row justify-content-center">
-            {% comment %} {% if list_food|length >= 7 %} {% endcomment %}
             <style type="text/css">
                 .delimit-display{padding-top: 120px;}
             </style>
             
-            {% comment %} {% else %}
-                <style type="text/css">
-                    .delimit-display{height: 100vh; padding-top: 120px;}
-                </style>
-            {% endif %} {% endcomment %}
-
             {% if match %}
             {% for substitute in list_food %}
                 <div class="col-12 col-lg-4 my-5">
@@ -50,7 +43,7 @@
                                 <div class="color-darkblue h2"><strong>{{ food.nutrition_grade|upper }}</strong></div>
                         </div>
                         <a href="{% url 'food_detail' substitute.id %}">
-                            <img src="{{ substitute.image_url }}" alt="substitute.picture_product" class="card-img-top size-img">
+                            <img src="{{ substitute.image_url }}" alt="substitute picture product" class="card-img-top size-img">
                         </a>
                         <div class="card-body">
                             <h4 class="card-title text-center">{{ food.name }}</h4>

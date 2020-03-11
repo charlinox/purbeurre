@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+
+<style type="text/css">
+    #mainNav{background-color: #345A61;}
+</style>
+
+    <header class="account">
+        <div class="container-fluid h-100">
+            <div class="row text-center">
+                <div class="col-12" id="image-user">
+                    <h1 class="alignement"><strong>{{ pseudo }}</strong></h1>
+                </div>
+            </div>
+
+            <div class="row pt-5 text-center">
+                <div class="col-12">
+                    <p>Votre pseudo: <strong>{{ pseudo }}</strong></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+{% endblock content %}
