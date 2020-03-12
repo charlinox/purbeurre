@@ -7,6 +7,8 @@ from .forms import ConnexionForm
 
 def signup(request):
 
+    context = {'error': False,}
+
     if request.user.is_authenticated:
          return redirect('index')         
     else:
@@ -15,8 +17,11 @@ def signup(request):
             form = UserCreationForm(request.POST)
             if form.is_valid():
                 user = form.save()
+                context['new_user'] = user
                 login(request, user)
                 return redirect('index')
+            else:
+                context = {'error': True,}
 
         else:
             form = UserCreationForm()
@@ -26,9 +31,9 @@ def account(request):
     context = {}
 
     if request.user.is_authenticated:
-        context['pseudo'] = request.username
+        context['pseudo'] = request.user
 
     else:
-        return redirect(reverse('users:login'))
+        return redirect(reverse('login'))
 
     return render(request, 'users/account.html', context=context)

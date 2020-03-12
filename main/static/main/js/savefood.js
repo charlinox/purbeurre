@@ -30,7 +30,7 @@ function main() {
                 var nameFood = btn[i].parentNode.childNodes[1].textContent;
 
                 $.ajax({
-                    url: '/save_food',
+                    url: 'save_food',
                     type: 'POST',
                     dataType: 'json',
                     data: {'idFood': btn[i].childNodes[0].textContent},

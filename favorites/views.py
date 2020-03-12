@@ -8,10 +8,10 @@ from products.models import Product
 @login_required
 def save_food(request):
     if request.method=="POST":
-        food_id = int(request.POST["food_id"])
-        substitute_id = int(request.POST["substitute_id"])
+        # food_id = int(request.POST["food_id"])
+        # substitute_id = int(request.POST["substitute_id"])
         req = request.POST['idFood']
-        fav = Favoris()
+        fav = Favorite()
         fav.user = request.user
         fav.substitute = Product.objects.get(pk=req)
         fav.save()
@@ -25,4 +25,4 @@ def my_food(request):
         food_favs = Favorite.objects.filter(user=request.user.id)
         context['list_food'] = food_favs
 
-    return render(request, 'favorites/my_food.html', context=context)
+    return render(request, 'my_food.html', context=context)

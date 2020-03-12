@@ -10,6 +10,7 @@ django = "*"
 requests = "*"
 django-extensions = "*"
 coverage = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.8"
