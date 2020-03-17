@@ -40,14 +40,14 @@
                 <div class="col-12 col-lg-4 my-5">
                     <div class="card border-primary size-card mx-auto">
                         <div class="d-flex align-items-center justify-content-center nut-group">
-                                <div class="color-darkblue h2"><strong>{{ food.nutrition_grade|upper }}</strong></div>
+                                <div class="color-darkblue h2"><strong>{{ substitute.nutrition_grade|upper }}</strong></div>
                         </div>
                         <a href="{% url 'food_detail' substitute.id %}">
                             <img src="{{ substitute.image_url }}" alt="substitute picture product" class="card-img-top size-img">
                         </a>
                         <div class="card-body">
                             <h4 class="card-title text-center">{{ substitute.name }}</h4>
-                            <a href="#" class="btn btn-color-personal btn-save-food"><p class="d-none">{{ substitute.id }}</p><i class="fas fa-save"></i> Sauvegarder</a>
+                            <a href="#" class="btn btn-color-personal btn-save-food" data-substitute-id="{{ substitute.id }}" data-product-id="{{ food.id }}"><i class="fas fa-save"></i> Sauvegarder</a>
                             <!-- <form action="{% url 'save_food' %}" method="post" class="form-inline">
                             <div class="input-group mx-auto">
                                 {% csrf_token %}

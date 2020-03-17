@@ -30,18 +30,18 @@ function main() {
                 var nameFood = btn[i].parentNode.childNodes[1].textContent;
 
                 $.ajax({
-                    url: 'save_food',
+                    url: '/favorites/save_food/',
                     type: 'POST',
                     dataType: 'json',
-                    data: {'idFood': btn[i].childNodes[0].textContent},
+                    data: {'substitute-id': btn[i].dataset.substituteId, 'product-id': btn[i].dataset.productId},
                     success: function (data) {
                         titleModalBox.textContent = 'Sauvegarde...';
-                        bodyModalBox.textContent = 'Le produit ' + nameFood + ' a bien été ajouter à vos favoris';
+                        bodyModalBox.textContent = 'Le produit ' + nameFood + ' a bien été ajouté à vos favoris';
                         $('#modalBox').modal();
                     },
                     error: function (error) {
                         titleModalBox.textContent = 'Erreur';
-                        bodyModalBox.textContent = 'Le produit ' + nameFood + " n'a pas été ajouter à vos favoris.\nUne erreur c'est produite.";
+                        bodyModalBox.textContent = 'Le produit ' + nameFood + " n'a pas été ajouté à vos favoris.\nUne erreur c'est produite.";
                         $('#modalBox').modal();
                     }
                 })
