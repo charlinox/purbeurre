@@ -14,7 +14,7 @@ def save_food(request):
         product_id=request.POST["product-id"]
         substitute= Product.objects.get(pk=substitute_id)
         product= Product.objects.get(pk=product_id)
-        fav = Favorite.objects.create(substitut=substitute, original=product, user=request.user)
+        Favorite.objects.create(substitut=substitute, original=product, user=request.user)
 
     return JsonResponse({'ServerResponse': 'okay'})
 

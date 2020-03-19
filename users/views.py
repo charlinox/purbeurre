@@ -17,7 +17,7 @@ def signup(request):
             form = UserCreationForm(request.POST)
             if form.is_valid():
                 user = form.save()
-                context['new_user'] = user
+                context['new_user'] = user.username
                 login(request, user)
                 return redirect('index')
             else:
@@ -31,7 +31,7 @@ def account(request):
     context = {}
 
     if request.user.is_authenticated:
-        context['pseudo'] = request.user
+        context['pseudo'] = request.user.username
 
     else:
         return redirect(reverse('login'))

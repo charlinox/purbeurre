@@ -1,5 +1,6 @@
 from django.test import TestCase, Client
-from .models import Category, Product
+from products.models import Category, Product
+from .views import legalmention, index
 
 
 class StatusCodePageTestCase(TestCase):
@@ -7,11 +8,11 @@ class StatusCodePageTestCase(TestCase):
         self.cli = Client()
 
     def test_page_index(self):
-        rep = self.cli.get('/')
+        rep = self.cli.get('/main/')
         self.assertEqual(rep.status_code, 200)
 
     def test_page_legal_mention(self):
-        rep = self.cli.get('/')
+        rep = self.cli.get('/main/')
         self.assertEqual(rep.status_code, 200)
 
 
@@ -30,9 +31,9 @@ class CheckViewsTestCase(TestCase):
         self.food = alim
 
     def test_views_legalmention(self):
-        rep = self.cli.get('/mention_legale')
+        rep = self.cli.get('/main/mention_legale')
         self.assertEqual(rep.resolver_match.func, legalmention)
 
     def test_views_index(self):
-        rep = self.cli.get('/')
+        rep = self.cli.get('/main/')
         self.assertEqual(rep.resolver_match.func, index)
