@@ -27,7 +27,7 @@ function main() {
         for (let i = 0; i < btn.length; i++) {
 
             btn[i].addEventListener('click', function (event) {
-                var nameFood = btn[i].parentNode.childNodes[1].textContent;
+                var nameFood = btn[i].dataset.productName;
 
                 $.ajax({
                     url: '/favorites/save_food/',

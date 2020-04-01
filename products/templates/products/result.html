@@ -47,7 +47,7 @@
                         </a>
                         <div class="card-body">
                             <h4 class="card-title text-center">{{ substitute.name }}</h4>
-                            <a href="#" class="btn btn-color-personal btn-save-food" data-substitute-id="{{ substitute.id }}" data-product-id="{{ food.id }}"><i class="fas fa-save"></i> Sauvegarder</a>
+                            <a href="#" class="btn btn-color-personal btn-save-food" data-substitute-id="{{ substitute.id }}" data-product-id="{{ food.id }}" data-product-name="{{ food.name }}"><i class="fas fa-save"></i> Sauvegarder</a>
                             <!-- <form action="{% url 'save_food' %}" method="post" class="form-inline">
                             <div class="input-group mx-auto">
                                 {% csrf_token %}

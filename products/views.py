@@ -26,7 +26,7 @@ def result(request):
         
         else:
             context['match'] = False
-            return render(request, 'products/no_search.html', context=context)
+            return render(request, 'products/no_search.html')
     else:
         context['errors'] = form.errors.items()
 

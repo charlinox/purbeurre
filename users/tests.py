@@ -83,7 +83,6 @@ class UserAuthenticateTestCase(TestCase):
         user_test = User.objects.get(username='user_test_creation')
         self.assertEqual(user_test.username, 'user_test_creation')
 
-
     def test_user_logout(self):
         self.cli.login(username=self.user.username,
             password='longpasswordtest'
@@ -98,24 +97,6 @@ class UserAuthenticateTestCase(TestCase):
         )
         rep = self.cli.get('/users/account/')
         self.assertEqual(rep.context['pseudo'], self.user.username)
-
-# class FormTestCase(TestCase):
-#     def test_form_signup(self):
-#         form_data = {
-#             'username': 'testUser',
-#             'password1': 'longpasswordtest',
-#             'password2': 'longpasswordtest'
-#         }
-#         form = UserCreationForm(data=form_data)
-#         self.assertTrue(form.is_valid())
-
-#     def test_form_login(self):
-#         form_data = {
-#             'username': 'testUser',
-#             'password': 'longpasswordtest',
-#         }
-#         form = auth_views.LoginView(data=form_data)
-#         self.assertTrue(form.is_valid())
 
 
 class TemplateRenderTestCase(TestCase):

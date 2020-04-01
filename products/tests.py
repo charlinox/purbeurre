@@ -22,10 +22,13 @@ class StatusCodePageTestCase(TestCase):
         rep = self.cli.get('/')
         self.assertEqual(rep.status_code, 200)
 
-    # def test_page_food_detail(self):
-    #     rep = self.cli.get(f'/food_detail/{self.food.id}/')
-    #     self.assertEqual(rep.status_code, 200)
+    def test_page_food_detail(self):
+        rep = self.cli.get(f'/products/food_detail/{self.food.id}/')
+        self.assertEqual(rep.status_code, 200)
 
+    def test_page_no_search(self):
+        rep = self.cli.get(f'/products/no_search/')
+        self.assertEqual(rep.status_code, 200)
 
 class CheckViewsTestCase(TestCase):
     def setUp(self):
@@ -52,3 +55,6 @@ class CheckViewsTestCase(TestCase):
             DetailView.as_view().__name__
         )
 
+    def test_views_result_no_search(self):
+        rep = self.cli.get('/products/result/', {'research' : 'pate chocolat'})
+        self.assertTemplateUsed(rep, '/products/no_search/')
