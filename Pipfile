@@ -12,6 +12,8 @@ django-extensions = "*"
 coverage = "*"
 pytest = "*"
 autopep8 = "*"
+psycopg2-binary = "*"
+pycodestyle = "*"
 
 [requires]
 python_version = "3.8"
