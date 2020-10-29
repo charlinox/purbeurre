@@ -27,7 +27,6 @@ class CheckViewsTestCase(TestCase):
         self.user = user_test
         self.cli.login(username='testUser', password='longpasswordtest')
 
-
     def test_views_my_food(self):
         rep = self.cli.get('/favorites/my_food/')
         self.assertEqual(rep.resolver_match.func, my_food)

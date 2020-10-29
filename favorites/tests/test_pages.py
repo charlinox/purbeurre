@@ -11,6 +11,7 @@ class StatusCodePageTestCase(TestCase):
 
     def test_page_save_food(self):
         rep = self.cli.get('/')
+        print("coucou")
         self.assertEqual(rep.status_code, 200)
 
     def test_page_my_food(self):
