@@ -5,7 +5,7 @@ import requests
 
 from django.core.management.base import BaseCommand, CommandError
 from django.db import models
-from products.models import Product  
+from products.models import Product
 
 CATEGORY_LIST = [
     "Conserves",
@@ -18,7 +18,8 @@ CATEGORY_LIST = [
     "Produits laitiers",
     "viandes",
     "boissons"
-    ]
+]
+
 
 class ProductDownloader:
     """ Download products from OFF API """
@@ -48,7 +49,7 @@ class Command(BaseCommand):
             products = downloader.fetch(each_category, 500)
             for product in products:
                 try:
-                    product = Product.objects.create_from_openfoodfacts(**product)
+                    product = Product.objects.create_from_openfoodfacts(
+                        **product)
                 except TypeError:
                     continue
-

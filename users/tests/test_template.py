@@ -18,7 +18,7 @@ class TemplateRenderTestCase(TestCase):
     def test_template_login(self):
         rep = self.cli.get('/users/login/')
         self.assertTemplateUsed(rep, 'users/login.html')
-        
+
     def test_template_signup(self):
         self.cli.logout()
         rep = self.cli.get('/users/signup/')
@@ -29,5 +29,3 @@ class TemplateRenderTestCase(TestCase):
         rep = self.cli.get('/users/account/')
         self.assertEqual(rep.status_code, 200)
         self.assertTemplateUsed(rep, 'users/account.html')
-
-

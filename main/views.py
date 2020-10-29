@@ -7,5 +7,6 @@ def index(request):
     """Display the site index."""
     return render(request, "main/index.html", {"form": SearchForm()})
 
+
 def legalmention(request):
     return render(request, 'main/mention_legale.html')

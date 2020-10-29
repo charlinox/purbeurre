@@ -29,4 +29,3 @@ class StatusCodePageTestCase(TestCase):
     def test_page_no_search(self):
         rep = self.cli.get(f'/products/no_search/')
         self.assertEqual(rep.status_code, 200)
-

@@ -11,13 +11,13 @@ class CheckSubstituteTestCase(TestCase):
         conserves_category.name = 'conserves'
         conserves_category.save()
 
-        abricots_food = Product(id = '49', name = 'abricots', nutrition_grade = 'a')
+        abricots_food = Product(id='49', name='abricots', nutrition_grade='a')
         abricots_food.save()
         abricots_food.categories.add(conserves_category)
         abricots_food.save()
         self.abricots = abricots_food
 
-        tomates_food = Product(id = '48', name = 'tomates', nutrition_grade = 'b')
+        tomates_food = Product(id='48', name='tomates', nutrition_grade='b')
         tomates_food.save()
         tomates_food.categories.add(conserves_category)
         tomates_food.save()
@@ -33,4 +33,3 @@ class CheckSubstituteTestCase(TestCase):
         else:
             substitute_result = "aucun substitut trouvé"
         self.assertEqual(substitute_result, "aucun substitut trouvé")
-

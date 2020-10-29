@@ -29,6 +29,5 @@ class CheckViewsTestCase(TestCase):
         )
 
     def test_views_result_no_search(self):
-        rep = self.cli.get('/products/result/', {'research' : 'pate chocolat'})
+        rep = self.cli.get('/products/result/', {'research': 'pate chocolat'})
         self.assertTemplateNotUsed(rep, '/products/result/')
-

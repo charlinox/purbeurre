@@ -18,10 +18,14 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Favorite',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('original', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='favorites_from_original', to='products.Product')),
-                ('substitut', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='favorites_from_substitut', to='products.Product')),
-                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='favorites', to=settings.AUTH_USER_MODEL)),
+                ('id', models.AutoField(auto_created=True,
+                                        primary_key=True, serialize=False, verbose_name='ID')),
+                ('original', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                                               related_name='favorites_from_original', to='products.Product')),
+                ('substitut', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                                                related_name='favorites_from_substitut', to='products.Product')),
+                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                                           related_name='favorites', to=settings.AUTH_USER_MODEL)),
             ],
         ),
     ]

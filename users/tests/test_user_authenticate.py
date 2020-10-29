@@ -19,8 +19,8 @@ class UserAuthenticateTestCase(TestCase):
     def test_user_not_login_with_view(self):
         self.cli.logout()
         rep = self.cli.post('/users/login/',
-            {'username': 'notUser', 'password': 'longpasswordtest'}
-        )
+                            {'username': 'notUser', 'password': 'longpasswordtest'}
+                            )
         self.assertTrue(self.user.is_authenticated)
 
     def test_user_login(self):
@@ -29,8 +29,8 @@ class UserAuthenticateTestCase(TestCase):
 
     def test_user_redirect_after_login(self):
         rep = self.cli.post('/users/login/',
-            {'username': 'testUser', 'password': 'longpasswordtest'}
-        )
+                            {'username': 'testUser', 'password': 'longpasswordtest'}
+                            )
         self.assertEqual(rep.status_code, 302)
 
     def test_user_is_authenticated(self):
@@ -43,7 +43,7 @@ class UserAuthenticateTestCase(TestCase):
     def test_user_is_not_authenticated(self):
         rep = self.cli.login(username='notUser', password='notPwd')
         self.assertFalse(rep)
-    
+
     def test_user_signup(self):
         user_test2 = User.objects.create_user(
             username='testUser2',
@@ -55,27 +55,26 @@ class UserAuthenticateTestCase(TestCase):
 
     def test_user_signup_with_view(self):
         rep = self.cli.post('/users/signup/',
-            {
-                'username': 'user_test_creation',
-                'password1': 'longpasswordtest',
-                'password2': 'longpasswordtest'
-            }
-        )
+                            {
+                                'username': 'user_test_creation',
+                                'password1': 'longpasswordtest',
+                                'password2': 'longpasswordtest'
+                            }
+                            )
         user_test = User.objects.get(username='user_test_creation')
         self.assertEqual(user_test.username, 'user_test_creation')
 
     def test_user_logout(self):
         self.cli.login(username=self.user.username,
-            password='longpasswordtest'
-        )
+                       password='longpasswordtest'
+                       )
         rep = self.cli.get('/users/logout/')
         user_logout = self.user.is_anonymous
         self.assertFalse(user_logout)
 
     def test_informations_for_account_user_page(self):
         self.cli.login(username=self.user.username,
-            password='longpasswordtest'
-        )
+                       password='longpasswordtest'
+                       )
         rep = self.cli.get('/users/account/')
         self.assertEqual(rep.context['pseudo'], self.user.username)
-

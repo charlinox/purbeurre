@@ -5,12 +5,13 @@ from django.contrib.auth.forms import UserCreationForm
 
 from .forms import ConnexionForm
 
+
 def signup(request):
 
-    context = {'error': False,}
+    context = {'error': False, }
 
     if request.user.is_authenticated:
-         return redirect('index')         
+        return redirect('index')
     else:
 
         if request.method == 'POST':
@@ -21,11 +22,12 @@ def signup(request):
                 login(request, user)
                 return redirect('index')
             else:
-                context = {'error': True,}
+                context = {'error': True, }
 
         else:
             form = UserCreationForm()
-        return render(request, 'users/signup.html', {'form': form}) 
+        return render(request, 'users/signup.html', {'form': form})
+
 
 def account(request):
     context = {}

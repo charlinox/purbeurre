@@ -1,22 +1,23 @@
 from django.db import models
 
+
 class ProductManager(models.Manager):
     """ Create managers for products """
 
     def create_from_openfoodfacts(
-        self,
-        code,
-        product_name,
-        nutrition_grade_fr,
-        url,
-        image_url,
-        image_nutrition_url,
-        categories,
-        **kwargs):
+            self,
+            code,
+            product_name,
+            nutrition_grade_fr,
+            url,
+            image_url,
+            image_nutrition_url,
+            categories,
+            **kwargs):
         """Create products from openfoodfacts data."""
-        
+
         from products.models import Category
-         
+
         if not (
             code
             and product_name.strip()
@@ -24,7 +25,7 @@ class ProductManager(models.Manager):
             and url.strip()
             and image_url.strip()
             and image_nutrition_url.strip()
-            ):
+        ):
             raise TypeError("product_name, nutrition_grade_fr, url, image_url"
                             "and image_nutrition_url must be non-blank fields")
         if len(str(code)) > 19:

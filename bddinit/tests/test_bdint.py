@@ -4,11 +4,12 @@ from unittest.mock import patch
 
 from ..management.commands.bdinit import ProductDownloader
 
+
 class FetchTestCase(TestCase):
-    
+
     @patch('requests.get')
     def test_requests_get(self, mock_requests_get):
-        
+
         class Response:
             def json(self):
                 return {

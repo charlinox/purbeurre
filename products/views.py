@@ -18,12 +18,12 @@ def result(request):
         food = Product.objects.filter(name__contains=food_search)
 
         if food.exists():
-            
+
             sub = substitute(food[0])[:9]
             context['match'] = True
             context['food'] = food[0]
             context['list_food'] = sub
-        
+
         else:
             context['match'] = False
             return render(request, 'products/no_search.html')
