@@ -14,6 +14,8 @@ pytest = "*"
 autopep8 = "*"
 psycopg2-binary = "*"
 pycodestyle = "*"
+whitenoise = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
