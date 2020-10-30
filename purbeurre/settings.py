@@ -39,7 +39,9 @@ if os.environ.get('ENV') == 'PRODUCTION':
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 else:
     DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', 'purbeur.herokuapp.com']
+
+
+ALLOWED_HOSTS = ['purbeur.herokuapp.com', '127.0.0.1']
 
 # Login page definition
 
