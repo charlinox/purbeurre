@@ -46,6 +46,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         downloader = ProductDownloader()
         for each_category in CATEGORY_LIST:
+            print("chargement de ", each_category)
             products = downloader.fetch(each_category, 100)
             for product in products:
                 try:
