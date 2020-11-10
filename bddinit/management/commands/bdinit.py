@@ -46,7 +46,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         downloader = ProductDownloader()
         for each_category in CATEGORY_LIST:
-            products = downloader.fetch(each_category, 500)
+            products = downloader.fetch(each_category, 100)
             for product in products:
                 try:
                     product = Product.objects.create_from_openfoodfacts(
