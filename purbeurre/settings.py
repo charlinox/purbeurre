@@ -64,7 +64,6 @@ INSTALLED_APPS = [
     "bddinit",
     "products.apps.ProductsConfig",
     "main.apps.MainConfig",
-    # "coverage"
 ]
 
 MIDDLEWARE = [
@@ -97,7 +96,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "purbeurre.wsgi.application"
-
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
